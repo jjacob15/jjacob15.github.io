@@ -21748,6 +21748,211 @@ exports.default = MainContainer;
 
 /***/ }),
 
+/***/ "./src/components/content/Container.jsx":
+/*!**********************************************!*\
+  !*** ./src/components/content/Container.jsx ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _IExtract = __webpack_require__(/*! ./IExtract */ "./src/components/content/IExtract.jsx");
+
+var _IExtract2 = _interopRequireDefault(_IExtract);
+
+var _IApply = __webpack_require__(/*! ./IApply */ "./src/components/content/IApply.jsx");
+
+var _IApply2 = _interopRequireDefault(_IApply);
+
+var _IModel = __webpack_require__(/*! ./IModel */ "./src/components/content/IModel.jsx");
+
+var _IModel2 = _interopRequireDefault(_IModel);
+
+var _IPlan = __webpack_require__(/*! ./IPlan */ "./src/components/content/IPlan.jsx");
+
+var _IPlan2 = _interopRequireDefault(_IPlan);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Container = function (_React$Component) {
+    _inherits(Container, _React$Component);
+
+    function Container(props) {
+        _classCallCheck(this, Container);
+
+        return _possibleConstructorReturn(this, (Container.__proto__ || Object.getPrototypeOf(Container)).call(this, props));
+    }
+
+    _createClass(Container, [{
+        key: 'render',
+        value: function render() {
+            var nav = this.props.nav;
+
+
+            switch (nav.menu.selected.id) {
+                case 5:
+                    return _react2.default.createElement(_IExtract2.default, null);
+                case 6:
+                    return _react2.default.createElement(_IModel2.default, null);
+                case 7:
+                    return _react2.default.createElement(_IApply2.default, null);
+                case 8:
+                    return _react2.default.createElement(_IPlan2.default, null);
+                default:
+                    return _react2.default.createElement(_IExtract2.default, null);
+            }
+        }
+    }]);
+
+    return Container;
+}(_react2.default.Component);
+
+exports.default = Container;
+
+/***/ }),
+
+/***/ "./src/components/content/IApply.jsx":
+/*!*******************************************!*\
+  !*** ./src/components/content/IApply.jsx ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Page = function Page() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    'IApply'
+  );
+};
+exports.default = Page;
+
+/***/ }),
+
+/***/ "./src/components/content/IExtract.jsx":
+/*!*********************************************!*\
+  !*** ./src/components/content/IExtract.jsx ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Page = function Page() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    'IExtract'
+  );
+};
+exports.default = Page;
+
+/***/ }),
+
+/***/ "./src/components/content/IModel.jsx":
+/*!*******************************************!*\
+  !*** ./src/components/content/IModel.jsx ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Page = function Page() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    'IModel'
+  );
+};
+exports.default = Page;
+
+/***/ }),
+
+/***/ "./src/components/content/IPlan.jsx":
+/*!******************************************!*\
+  !*** ./src/components/content/IPlan.jsx ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Page = function Page() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    'IPlan'
+  );
+};
+exports.default = Page;
+
+/***/ }),
+
 /***/ "./src/components/landing/Breadcrumb.jsx":
 /*!***********************************************!*\
   !*** ./src/components/landing/Breadcrumb.jsx ***!
@@ -21788,7 +21993,7 @@ var Breadcrumb = function Breadcrumb(props) {
         _react2.default.createElement(
           'a',
           null,
-          nav.sideBarMenu.selected.label || ''
+          nav.menu.selected.label || ''
         )
       )
     )
@@ -21826,6 +22031,10 @@ var _Breadcrumb2 = _interopRequireDefault(_Breadcrumb);
 var _Tabs = __webpack_require__(/*! ./nav/Tabs */ "./src/components/landing/nav/Tabs.jsx");
 
 var _Tabs2 = _interopRequireDefault(_Tabs);
+
+var _Container = __webpack_require__(/*! ../content/Container */ "./src/components/content/Container.jsx");
+
+var _Container2 = _interopRequireDefault(_Container);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -21909,6 +22118,15 @@ var Landing = function (_React$Component) {
                     { className: 'col-md-12 col-xl-6' },
                     _react2.default.createElement(_Tabs2.default, this.props)
                   )
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'row' },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'col-xl-12' },
+                    _react2.default.createElement(_Container2.default, this.props)
+                  )
                 )
               )
             )
@@ -21925,10 +22143,95 @@ exports.default = Landing;
 
 /***/ }),
 
-/***/ "./src/components/landing/nav/NavTab.jsx":
-/*!***********************************************!*\
-  !*** ./src/components/landing/nav/NavTab.jsx ***!
-  \***********************************************/
+/***/ "./src/components/landing/nav/Tab.jsx":
+/*!********************************************!*\
+  !*** ./src/components/landing/nav/Tab.jsx ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Tab = undefined;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+
+var _classnames2 = _interopRequireDefault(_classnames);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Tab = exports.Tab = function (_React$Component) {
+  _inherits(Tab, _React$Component);
+
+  function Tab(props) {
+    _classCallCheck(this, Tab);
+
+    var _this = _possibleConstructorReturn(this, (Tab.__proto__ || Object.getPrototypeOf(Tab)).call(this, props));
+
+    _this.onSelect = _this.onSelect.bind(_this);
+    return _this;
+  }
+
+  _createClass(Tab, [{
+    key: 'onSelect',
+    value: function onSelect() {
+      this.props.onSelect(this.props.item);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      var _props = this.props,
+          item = _props.item,
+          active = _props.active;
+
+      var c = (0, _classnames2.default)({
+        'nav-link': true,
+        active: active
+      });
+      return _react2.default.createElement(
+        'li',
+        { className: 'nav-item', onClick: function onClick() {
+            return _this2.onSelect();
+          } },
+        _react2.default.createElement(
+          'a',
+          { className: c },
+          item.label
+        ),
+        _react2.default.createElement('div', { className: 'slide' })
+      );
+    }
+  }]);
+
+  return Tab;
+}(_react2.default.Component);
+
+;
+
+/***/ }),
+
+/***/ "./src/components/landing/nav/TabContainer.jsx":
+/*!*****************************************************!*\
+  !*** ./src/components/landing/nav/TabContainer.jsx ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21939,77 +22242,62 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _Tab = __webpack_require__(/*! ./Tab */ "./src/components/landing/nav/Tab.jsx");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var NavTabs = function NavTabs(props) {
-  var nav = props.nav;
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-  console.log('nav from tabs', nav);
-  return _react2.default.createElement(
-    'ul',
-    { className: 'nav nav-tabs md-tabs' },
-    _react2.default.createElement(
-      'li',
-      { className: 'nav-item' },
-      _react2.default.createElement(
-        'a',
-        { className: 'nav-link active' },
-        'iExtract'
-      ),
-      _react2.default.createElement('div', { className: 'slide' })
-    ),
-    _react2.default.createElement(
-      'li',
-      { className: 'nav-item' },
-      _react2.default.createElement(
-        'a',
-        { className: 'nav-link' },
-        'iModel'
-      ),
-      _react2.default.createElement('div', { className: 'slide' })
-    ),
-    _react2.default.createElement(
-      'li',
-      { className: 'nav-item' },
-      _react2.default.createElement(
-        'a',
-        { className: 'nav-link' },
-        'iApply'
-      ),
-      _react2.default.createElement('div', { className: 'slide' })
-    ),
-    _react2.default.createElement(
-      'li',
-      { className: 'nav-item' },
-      _react2.default.createElement(
-        'a',
-        { className: 'nav-link' },
-        'iPlan'
-      ),
-      _react2.default.createElement('div', { className: 'slide' })
-    )
-  );
-};
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-var Tab = function Tab(_ref) {
-  var item = _ref.item;
-  return _react2.default.createElement(
-    'li',
-    { className: 'nav-item' },
-    _react2.default.createElement(
-      'a',
-      { className: 'nav-link' },
-      item.label
-    ),
-    _react2.default.createElement('div', { className: 'slide' })
-  );
-};
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-exports.default = NavTabs;
+var TabContainer = function (_React$Component) {
+  _inherits(TabContainer, _React$Component);
+
+  function TabContainer(props) {
+    _classCallCheck(this, TabContainer);
+
+    var _this = _possibleConstructorReturn(this, (TabContainer.__proto__ || Object.getPrototypeOf(TabContainer)).call(this, props));
+
+    _this.onSelect = _this.onSelect.bind(_this);
+    return _this;
+  }
+
+  _createClass(TabContainer, [{
+    key: 'onSelect',
+    value: function onSelect(i) {
+      this.props.onSelect(i);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      var nav = this.props.nav;
+
+      return _react2.default.createElement(
+        'ul',
+        { className: 'nav nav-tabs md-tabs' },
+        nav.menu.content[1].content.map(function (m, i) {
+          return _react2.default.createElement(_Tab.Tab, { item: m, active: nav.menu.selected.id === m.id, key: i, onSelect: _this2.onSelect });
+        })
+      );
+    }
+  }]);
+
+  return TabContainer;
+}(_react2.default.Component);
+
+;
+
+exports.default = TabContainer;
 
 /***/ }),
 
@@ -22027,25 +22315,76 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _NavTab = __webpack_require__(/*! ./NavTab */ "./src/components/landing/nav/NavTab.jsx");
+var _TabContainer = __webpack_require__(/*! ./TabContainer */ "./src/components/landing/nav/TabContainer.jsx");
 
-var _NavTab2 = _interopRequireDefault(_NavTab);
+var _TabContainer2 = _interopRequireDefault(_TabContainer);
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _types = __webpack_require__(/*! ../../../constants/types */ "./src/constants/types.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Tabs = function Tabs(props) {
-  return _react2.default.createElement(
-    'div',
-    null,
-    _react2.default.createElement(_NavTab2.default, props)
-  );
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var mapProps = function mapProps(disptach) {
+  return {
+    onMenuSelected: function onMenuSelected(item) {
+      disptach({ type: _types.SET_SELECTED_MENU, item: item });
+    }
+  };
 };
 
-exports.default = Tabs;
+var Tabs = function (_React$Component) {
+  _inherits(Tabs, _React$Component);
+
+  function Tabs(props) {
+    _classCallCheck(this, Tabs);
+
+    var _this = _possibleConstructorReturn(this, (Tabs.__proto__ || Object.getPrototypeOf(Tabs)).call(this, props));
+
+    _this.onSelect = _this.onSelect.bind(_this);
+    return _this;
+  }
+
+  _createClass(Tabs, [{
+    key: 'onSelect',
+    value: function onSelect(item) {
+      this.props.onMenuSelected(item);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      return _react2.default.createElement(
+        'div',
+        { style: { marginBottom: '15px' } },
+        _react2.default.createElement(_TabContainer2.default, _extends({}, this.props, { onSelect: function onSelect(i) {
+            return _this2.onSelect(i);
+          } }))
+      );
+    }
+  }]);
+
+  return Tabs;
+}(_react2.default.Component);
+
+exports.default = (0, _reactRedux.connect)(function () {
+  return {};
+}, mapProps)(Tabs);
 
 /***/ }),
 
@@ -22601,12 +22940,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Menu = function Menu(props) {
   var item = props.item,
       onMenuSelected = props.onMenuSelected,
-      sideBarMenu = props.sideBarMenu;
+      menu = props.menu;
 
   var aStyle = function aStyle(curr) {
     return (0, _classnames2.default)({
-      'selected active': sideBarMenu.selected && (sideBarMenu.selected.id === curr.id || curr.content && curr.content.filter(function (x) {
-        return x.id === sideBarMenu.selected.id;
+      'selected active': menu.selected && (menu.selected.id === curr.id || curr.content && curr.content.filter(function (x) {
+        return x.id === menu.selected.id;
       }).length > 0)
     });
   };
@@ -22650,7 +22989,7 @@ var Menu = function Menu(props) {
       'ul',
       { className: subMenuStyle(item) },
       item.content.map(function (sub, j) {
-        return _react2.default.createElement(_SubMenu2.default, { item: sub, key: j, onMenuSelected: onMenuSelected, sideBarMenu: sideBarMenu });
+        return _react2.default.createElement(_SubMenu2.default, { item: sub, key: j, onMenuSelected: onMenuSelected, menu: menu });
       })
     )
   );
@@ -22707,7 +23046,7 @@ var SideBar = function SideBar(props) {
   var nav = props.nav,
       onMenuSelected = props.onMenuSelected;
   var displaySideBar = nav.displaySideBar,
-      sideBarMenu = nav.sideBarMenu;
+      menu = nav.menu;
 
   var c = (0, _classnames2.default)({
     'side-bar': true,
@@ -22720,7 +23059,7 @@ var SideBar = function SideBar(props) {
     _react2.default.createElement(
       'div',
       { className: 'main-menu' },
-      sideBarMenu.menu.map(function (s, h) {
+      menu.content.map(function (s, h) {
         return _react2.default.createElement(
           'div',
           { key: h },
@@ -22733,7 +23072,7 @@ var SideBar = function SideBar(props) {
             'ul',
             { className: 'left-item' },
             s.content.map(function (item, i) {
-              return _react2.default.createElement(_Menu2.default, { item: item, key: i, sideBarMenu: sideBarMenu, onMenuSelected: onMenuSelected });
+              return _react2.default.createElement(_Menu2.default, { item: item, key: i, menu: menu, onMenuSelected: onMenuSelected });
             })
           )
         );
@@ -22775,13 +23114,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var SubMenu = function SubMenu(props) {
   var item = props.item,
       onMenuSelected = props.onMenuSelected,
-      sideBarMenu = props.sideBarMenu;
+      menu = props.menu;
 
 
   var aStyle = function aStyle(curr) {
     return (0, _classnames2.default)({
-      active: sideBarMenu.selected && (sideBarMenu.selected.id === curr.id || curr.content && curr.content.filter(function (x) {
-        return x.id === sideBarMenu.selected.id;
+      active: menu.selected && (menu.selected.id === curr.id || curr.content && curr.content.filter(function (x) {
+        return x.id === menu.selected.id;
       }).length > 0)
     });
   };
@@ -23025,13 +23364,13 @@ var initialState = {
   isSmallDevice: false,
   headerMinimized: true,
   displaySideBar: true,
-  sideBarMenu: {
+  menu: {
     selected: {
       id: 5,
       label: 'iExtract',
       icon: 'server'
     },
-    menu: _menuContent2.default
+    content: _menuContent2.default
   }
 };
 
@@ -23059,9 +23398,8 @@ exports.default = function () {
     case _types.SET_SELECTED_MENU:
       if (action.item.content) {
         return _extends({}, state, {
-          sideBarMenu: {
-            selected: null,
-            menu: state.sideBarMenu.menu.map(function (x) {
+          menu: _extends({}, state.menu, {
+            content: state.menu.content.map(function (x) {
               return _extends({}, x, {
                 content: x.content.map(function (c) {
                   return c.id === action.item.id ? _extends({}, c, {
@@ -23072,13 +23410,13 @@ exports.default = function () {
                 })
               });
             })
-          }
+          })
         });
       }
       return _extends({}, state, {
-        sideBarMenu: {
+        menu: {
           selected: action.item,
-          menu: state.sideBarMenu.menu.map(function (x) {
+          content: state.menu.content.map(function (x) {
             return _extends({}, x, {
               content: x.content.map(function (c) {
                 return c.id === action.item.id || action.item.parentId && action.item.parentId === c.id ? _extends({}, c) : _extends({}, c, {
