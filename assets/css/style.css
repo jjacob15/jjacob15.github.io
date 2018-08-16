@@ -170,6 +170,9 @@ a {
 .main-body .page-wrapper {
   transition: all ease-in 0.3s; }
 
+.main-body .btn {
+  width: 135px; }
+
 .md-tabs {
   position: relative; }
   .md-tabs .nav-item + .nav-item {

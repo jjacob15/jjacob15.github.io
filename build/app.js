@@ -5904,7 +5904,7 @@ var Button = function Button(_ref) {
       text = _ref.text;
   return _react2.default.createElement(
     "button",
-    { className: "btn btn-out btn-sm btn-primary", type: "button" },
+    { className: "btn btn-inverse btn-outline-inverse", type: "button" },
     _react2.default.createElement("i", { className: iconClass }),
     text
   );
