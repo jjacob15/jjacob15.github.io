@@ -127,7 +127,7 @@ a {
       .card .card-block a.dropdown-item .active {
         background-color: #4099ff; }
     .card .card-block .btn {
-      margin-right: 10px; }
+      margin-right: 5px; }
     .card .card-block.remove-label i {
       margin: 0;
       padding: 0; }
@@ -169,9 +169,6 @@ a {
 
 .main-body .page-wrapper {
   transition: all ease-in 0.3s; }
-
-.main-body .btn {
-  width: 135px; }
 
 .md-tabs {
   position: relative; }

@@ -108,17 +108,6 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAAiCAYAAADL
 
 /***/ }),
 
-/***/ "./node_modules/@tweenjs/tween.js/src/Tween.js":
-/*!******************************************************************************************!*\
-  !*** delegated ./node_modules/@tweenjs/tween.js/src/Tween.js from dll-reference utility ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference utility */ "dll-reference utility"))("./node_modules/@tweenjs/tween.js/src/Tween.js");
-
-/***/ }),
-
 /***/ "./node_modules/classnames/index.js":
 /*!*******************************************************************************!*\
   !*** delegated ./node_modules/classnames/index.js from dll-reference utility ***!
@@ -5153,6 +5142,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; /**
+                                                                                                                                                                                                                                                                   * Created by Jaison.Jacob on 7/13/2018.
+                                                                                                                                                                                                                                                                   */
+
+
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
@@ -5165,18 +5159,29 @@ var _Landing = __webpack_require__(/*! ./landing/Landing */ "./src/components/la
 
 var _Landing2 = _interopRequireDefault(_Landing);
 
+var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var MainContainer = function MainContainer(props) {
+  var nav = props.nav;
+  var displaySideBar = nav.displaySideBar;
+
+
   return _react2.default.createElement(
     'div',
     { className: 'main-container' },
-    _react2.default.createElement(_Sidebar2.default, props),
+    _react2.default.createElement(
+      _reactTransitionGroup.Transition,
+      { 'in': displaySideBar, timeout: 250 },
+      function (status) {
+        return _react2.default.createElement(_Sidebar2.default, _extends({ status: status }, props));
+      }
+    ),
     _react2.default.createElement(_Landing2.default, props)
   );
-}; /**
-    * Created by Jaison.Jacob on 7/13/2018.
-    */
+};
+
 exports.default = MainContainer;
 
 /***/ }),
@@ -5404,21 +5409,25 @@ var Card = exports.Card = function Card() {
       _react2.default.createElement("i", { className: "fa fa-calendar st-icon bg-primary" }),
       _react2.default.createElement(
         "div",
-        { className: "text-left" },
+        { className: "row" },
         _react2.default.createElement(
-          "button",
-          { type: "button", className: "btn btn-grd-success" },
-          "Enter"
-        ),
-        _react2.default.createElement(
-          "button",
-          { type: "button", className: "btn btn-grd-info" },
-          "Learn More"
-        ),
-        _react2.default.createElement(
-          "button",
-          { type: "button", className: "btn btn-grd-warning" },
-          "Update"
+          "div",
+          { className: "col-md-12 col-xl-12", style: { whiteSpace: 'nowrap' } },
+          _react2.default.createElement(
+            "button",
+            { type: "button", className: "btn btn-sm btn-grd-success" },
+            "Enter"
+          ),
+          _react2.default.createElement(
+            "button",
+            { type: "button", className: "btn btn-sm btn-grd-info" },
+            "Learn More"
+          ),
+          _react2.default.createElement(
+            "button",
+            { type: "button", className: "btn btn-sm btn-grd-warning" },
+            "Update"
+          )
         )
       )
     )
@@ -5893,47 +5902,82 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _velocityAnimate = __webpack_require__(/*! velocity-animate */ "./node_modules/velocity-animate/velocity.js");
+
+var _velocityAnimate2 = _interopRequireDefault(_velocityAnimate);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Button = function Button(_ref) {
   var iconClass = _ref.iconClass,
       text = _ref.text;
   return _react2.default.createElement(
-    "button",
-    { className: "btn btn-inverse btn-outline-inverse", type: "button" },
-    _react2.default.createElement("i", { className: iconClass }),
+    'button',
+    { className: 'btn btn-inverse btn-outline-inverse btn-sm', type: 'button' },
+    _react2.default.createElement('i', { className: iconClass }),
     text
   );
 };
 
-var Buttons = function Buttons() {
-  return _react2.default.createElement(
-    "div",
-    { className: "option-button" },
-    _react2.default.createElement(Button, { iconClass: "ti-help", text: "Help" }),
-    _react2.default.createElement(Button, { iconClass: "ti-search", text: "Find" }),
-    _react2.default.createElement(Button, { iconClass: "icofont icofont-user-alt-3", text: "Sort" }),
-    _react2.default.createElement(Button, { iconClass: "ti-filter", text: "Filter" }),
-    _react2.default.createElement(Button, { iconClass: "ti-zoom-in", text: "Zoom" }),
-    _react2.default.createElement(Button, { iconClass: "ti-layout-grid3", text: "Display" }),
-    _react2.default.createElement(Button, { iconClass: "ti-printer", text: "Print" }),
-    _react2.default.createElement(Button, { iconClass: "ti-export", text: "Export" }),
-    _react2.default.createElement(Button, { iconClass: "ti-save", text: "Save View" })
-  );
-};
+var Buttons = function (_Component) {
+  _inherits(Buttons, _Component);
 
-exports.default = function (_ref2) {
-  var state = _ref2.state;
-  return _react2.default.createElement(
-    "div",
-    null,
-    state ? _react2.default.createElement(Buttons, null) : null
-  );
-};
+  function Buttons() {
+    _classCallCheck(this, Buttons);
+
+    var _this = _possibleConstructorReturn(this, (Buttons.__proto__ || Object.getPrototypeOf(Buttons)).call(this));
+
+    _this.el = _react2.default.createRef();
+    return _this;
+  }
+
+  _createClass(Buttons, [{
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(nxtProps) {
+      this.animateThis(nxtProps.status);
+    }
+  }, {
+    key: 'animateThis',
+    value: function animateThis(status) {
+      if (status === 'entering') (0, _velocityAnimate2.default)(this.el, 'slideDown', { duration: 350, easing: 'ease' });
+
+      if (status === 'exiting') (0, _velocityAnimate2.default)(this.el, 'slideUp', { duration: 350, easing: 'ease' });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'option-button', ref: this.el },
+        _react2.default.createElement(Button, { iconClass: 'ti-help', text: 'Help' }),
+        _react2.default.createElement(Button, { iconClass: 'ti-search', text: 'Find' }),
+        _react2.default.createElement(Button, { iconClass: 'icofont icofont-user-alt-3', text: 'Sort' }),
+        _react2.default.createElement(Button, { iconClass: 'ti-filter', text: 'Filter' }),
+        _react2.default.createElement(Button, { iconClass: 'ti-zoom-in', text: 'Zoom' }),
+        _react2.default.createElement(Button, { iconClass: 'ti-layout-grid3', text: 'Display' }),
+        _react2.default.createElement(Button, { iconClass: 'ti-printer', text: 'Print' }),
+        _react2.default.createElement(Button, { iconClass: 'ti-export', text: 'Export' }),
+        _react2.default.createElement(Button, { iconClass: 'ti-save', text: 'Save View' })
+      );
+    }
+  }]);
+
+  return Buttons;
+}(_react.Component);
+
+exports.default = Buttons;
 
 /***/ }),
 
@@ -6059,6 +6103,8 @@ var _OptionButtons = __webpack_require__(/*! ./OptionButtons */ "./src/component
 
 var _OptionButtons2 = _interopRequireDefault(_OptionButtons);
 
+var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -6128,7 +6174,13 @@ var TabContainer = function (_React$Component) {
           _react2.default.createElement(
             'div',
             { className: 'col-md-12 col-xl-12' },
-            _react2.default.createElement(_OptionButtons2.default, { state: displayOptionIcons })
+            _react2.default.createElement(
+              _reactTransitionGroup.Transition,
+              { 'in': displayOptionIcons, timeout: 350 },
+              function (status) {
+                return _react2.default.createElement(_OptionButtons2.default, { status: status });
+              }
+            )
           )
         )
       );
@@ -6296,6 +6348,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
@@ -6308,10 +6362,14 @@ var _NavRight = __webpack_require__(/*! ./NavRight */ "./src/components/nav/NavR
 
 var _NavRight2 = _interopRequireDefault(_NavRight);
 
+var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var NavBar = function NavBar(props) {
   var nav = props.nav;
+  var headerMinimized = nav.headerMinimized;
+
 
   return _react2.default.createElement(
     'nav',
@@ -6323,7 +6381,13 @@ var NavBar = function NavBar(props) {
       _react2.default.createElement(
         'div',
         { className: 'navbar-container container-fluid' },
-        _react2.default.createElement(_NavRight2.default, props)
+        _react2.default.createElement(
+          _reactTransitionGroup.Transition,
+          { 'in': !headerMinimized, timeout: 250 },
+          function (status) {
+            return _react2.default.createElement(_NavRight2.default, _extends({ status: status }, props));
+          }
+        )
       )
     )
   );
@@ -6443,10 +6507,6 @@ var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnam
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _tween = __webpack_require__(/*! @tweenjs/tween.js */ "./node_modules/@tweenjs/tween.js/src/Tween.js");
-
-var _tween2 = _interopRequireDefault(_tween);
-
 var _ProfileMenu = __webpack_require__(/*! ./ProfileMenu */ "./src/components/nav/ProfileMenu.jsx");
 
 var _ProfileMenu2 = _interopRequireDefault(_ProfileMenu);
@@ -6454,6 +6514,16 @@ var _ProfileMenu2 = _interopRequireDefault(_ProfileMenu);
 var _FullScreen = __webpack_require__(/*! ./FullScreen */ "./src/components/nav/FullScreen.jsx");
 
 var _FullScreen2 = _interopRequireDefault(_FullScreen);
+
+var _NotificationIcons = __webpack_require__(/*! ./NotificationIcons */ "./src/components/nav/NotificationIcons.jsx");
+
+var _NotificationIcons2 = _interopRequireDefault(_NotificationIcons);
+
+var _velocityAnimate = __webpack_require__(/*! velocity-animate */ "./node_modules/velocity-animate/velocity.js");
+
+var _velocityAnimate2 = _interopRequireDefault(_velocityAnimate);
+
+var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6475,99 +6545,32 @@ var NavRight = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (NavRight.__proto__ || Object.getPrototypeOf(NavRight)).call(this, props));
 
     _this.state = {
-      display: 'display',
-      animating: false,
-      height: '0px',
       showMenu: false
     };
 
-    _this.height = { x: 0 };
-    _this.show = _this.show.bind(_this);
-    _this.animate = _this.animate.bind(_this);
     _this.toggleMenu = _this.toggleMenu.bind(_this);
+    _this.el = _react2.default.createRef();
+    _this.animateMe = _this.animateMe.bind(_this);
     return _this;
   }
 
   _createClass(NavRight, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      this.localReq = requestAnimationFrame(this.animate);
-    }
-  }, {
     key: 'componentWillReceiveProps',
     value: function componentWillReceiveProps(next) {
-      var animating = this.state.animating;
-      var nav = this.props.nav;
-      var headerMinimized = nav.headerMinimized;
+      var status = next.status,
+          nav = next.nav;
+      var isSmallDevice = nav.isSmallDevice;
 
-      if (animating) return;
 
-      if (next.nav.headerMinimized !== headerMinimized) {
-        this.toggle();
-      } else {
-        this.setState({
-          display: next.nav.isSmallDevice ? 'none' : 'block'
-        });
-      }
+      this.animateMe(isSmallDevice ? status : 'entering');
     }
   }, {
-    key: 'componentWillUnmount',
-    value: function componentWillUnmount() {
-      cancelAnimationFrame(this.localReq);
-    }
-  }, {
-    key: 'animate',
-    value: function animate(time) {
-      this.localReq = requestAnimationFrame(this.animate);
-      _tween2.default.update(time);
-    }
-  }, {
-    key: 'toggle',
-    value: function toggle() {
-      if (this.height.x === 0) {
-        this.show();
-        return;
-      }
+    key: 'animateMe',
+    value: function animateMe(status) {
+      var el = this.el.current;
 
-      this.hide();
-    }
-  }, {
-    key: 'show',
-    value: function show() {
-      var _this2 = this;
-
-      this.setState({
-        animating: true,
-        display: 'block'
-      });
-
-      new _tween2.default.Tween(this.height).to({ x: 56 }, 500).easing(_tween2.default.Easing.Quadratic.In).onUpdate(function (object) {
-        _this2.setState({ height: object.x + 'px' });
-      }).onComplete(function () {
-        _this2.setState({
-          animating: false
-        });
-        _this2.height = { x: 56 };
-      }).start();
-    }
-  }, {
-    key: 'hide',
-    value: function hide() {
-      var _this3 = this;
-
-      this.setState({
-        animating: true
-      });
-
-      new _tween2.default.Tween(this.height).to({ x: 0 }, 500).easing(_tween2.default.Easing.Quadratic.Out).onUpdate(function (object) {
-        _this3.setState({ height: object.x + 'px' });
-      }).onComplete(function () {
-        _this3.setState({
-          animating: false,
-          display: 'none'
-        });
-        _this3.height = { x: 0 };
-      }).start();
+      if (status === "entering") (0, _velocityAnimate2.default)(el, 'slideDown', { duration: 250, ease: 'ease-in-out' });
+      if (status === "exiting" || status === "exited") (0, _velocityAnimate2.default)(el, 'slideUp', { duration: 250, ease: 'ease-in-out' });
     }
   }, {
     key: 'toggleMenu',
@@ -6581,47 +6584,21 @@ var NavRight = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _state = this.state,
-          display = _state.display,
-          height = _state.height,
-          animating = _state.animating,
-          showMenu = _state.showMenu;
+      var showMenu = this.state.showMenu;
       var _props = this.props,
           auth = _props.auth,
           nav = _props.nav;
 
-      var c = (0, _classnames2.default)({
-        'nav-right': true,
-        'nav-right-animate': animating
-      });
+
       var upStyle = (0, _classnames2.default)({
         'user-profile header-notification': true,
         active: showMenu
       });
       return _react2.default.createElement(
         'ul',
-        { className: c, style: { display: display, height: height } },
+        { className: 'nav-right', ref: this.el },
         nav.isSmallDevice ? null : _react2.default.createElement(_FullScreen2.default, null),
-        _react2.default.createElement(
-          'li',
-          { className: '', title: 'Notification' },
-          _react2.default.createElement(
-            'a',
-            null,
-            _react2.default.createElement('i', { className: 'ti-bell' }),
-            _react2.default.createElement('span', { className: 'badge bg-c-pink' })
-          )
-        ),
-        _react2.default.createElement(
-          'li',
-          { className: '', title: 'Chat' },
-          _react2.default.createElement(
-            'a',
-            { className: 'displayChatbox' },
-            _react2.default.createElement('i', { className: 'ti-comments' }),
-            _react2.default.createElement('span', { className: 'badge bg-c-green' })
-          )
-        ),
+        _react2.default.createElement(_NotificationIcons2.default, null),
         _react2.default.createElement(
           'li',
           { className: upStyle, onClick: this.toggleMenu, onKeyPress: this.toggleMenu },
@@ -6636,7 +6613,13 @@ var NavRight = function (_React$Component) {
             ),
             _react2.default.createElement('i', { className: 'ti-angle-down' })
           ),
-          _react2.default.createElement(_ProfileMenu2.default, { show: showMenu })
+          _react2.default.createElement(
+            _reactTransitionGroup.Transition,
+            { 'in': showMenu, timeout: 250 },
+            function (status) {
+              return _react2.default.createElement(_ProfileMenu2.default, { status: status, show: showMenu });
+            }
+          )
         )
       );
     }
@@ -6646,6 +6629,55 @@ var NavRight = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = NavRight;
+
+/***/ }),
+
+/***/ "./src/components/nav/NotificationIcons.jsx":
+/*!**************************************************!*\
+  !*** ./src/components/nav/NotificationIcons.jsx ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function () {
+    return _react2.default.createElement(
+        "span",
+        null,
+        _react2.default.createElement(
+            "li",
+            { className: "", title: "Notification" },
+            _react2.default.createElement(
+                "a",
+                null,
+                _react2.default.createElement("i", { className: "ti-bell" }),
+                _react2.default.createElement("span", { className: "badge bg-c-pink" })
+            )
+        ),
+        _react2.default.createElement(
+            "li",
+            { className: "", title: "Chat" },
+            _react2.default.createElement(
+                "a",
+                { className: "displayChatbox" },
+                _react2.default.createElement("i", { className: "ti-comments" }),
+                _react2.default.createElement("span", { className: "badge bg-c-green" })
+            )
+        )
+    );
+};
 
 /***/ }),
 
@@ -6663,6 +6695,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
@@ -6671,70 +6705,112 @@ var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnam
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+var _velocityAnimate = __webpack_require__(/*! velocity-animate */ "./node_modules/velocity-animate/velocity.js");
+
+var _velocityAnimate2 = _interopRequireDefault(_velocityAnimate);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var ProfileMenu = function ProfileMenu(props) {
-  var show = props.show;
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-  var c = (0, _classnames2.default)({
-    'show-notification': true,
-    'profile-notification': true
-  });
-  return _react2.default.createElement(
-    'ul',
-    { className: c, style: { display: show ? 'block' : 'none' } },
-    _react2.default.createElement(
-      'li',
-      null,
-      _react2.default.createElement(
-        'a',
-        null,
-        _react2.default.createElement('i', { className: 'ti-settings' }),
-        'Settings'
-      )
-    ),
-    _react2.default.createElement(
-      'li',
-      null,
-      _react2.default.createElement(
-        'a',
-        null,
-        _react2.default.createElement('i', { className: 'ti-user' }),
-        'Profile'
-      )
-    ),
-    _react2.default.createElement(
-      'li',
-      null,
-      _react2.default.createElement(
-        'a',
-        null,
-        _react2.default.createElement('i', { className: 'ti-email' }),
-        'My Messages'
-      )
-    ),
-    _react2.default.createElement(
-      'li',
-      null,
-      _react2.default.createElement(
-        'a',
-        null,
-        _react2.default.createElement('i', { className: 'ti-lock' }),
-        'Lock Screen'
-      )
-    ),
-    _react2.default.createElement(
-      'li',
-      null,
-      _react2.default.createElement(
-        'a',
-        null,
-        _react2.default.createElement('i', { className: 'ti-layout-sidebar-left' }),
-        'Logout'
-      )
-    )
-  );
-};
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ProfileMenu = function (_Component) {
+  _inherits(ProfileMenu, _Component);
+
+  function ProfileMenu() {
+    _classCallCheck(this, ProfileMenu);
+
+    var _this = _possibleConstructorReturn(this, (ProfileMenu.__proto__ || Object.getPrototypeOf(ProfileMenu)).call(this));
+
+    _this.el = _react2.default.createRef();
+    _this.animateMe = _this.animateMe.bind(_this);
+    return _this;
+  }
+
+  _createClass(ProfileMenu, [{
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(nxt) {
+      this.animateMe(nxt.status);
+    }
+  }, {
+    key: 'animateMe',
+    value: function animateMe(status) {
+      var el = this.el.current;
+
+      if (status === "entering") (0, _velocityAnimate2.default)(el, 'slideDown', { duration: 250, ease: 'ease-in-out' });
+      if (status === "exiting") (0, _velocityAnimate2.default)(el, 'slideUp', { duration: 250, ease: 'ease-in-out' });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var show = this.props.show;
+
+      var c = (0, _classnames2.default)({
+        'show-notification': true,
+        'profile-notification': true
+      });
+      return _react2.default.createElement(
+        'ul',
+        { className: c, ref: this.el },
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement(
+            'a',
+            null,
+            _react2.default.createElement('i', { className: 'ti-settings' }),
+            'Settings'
+          )
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement(
+            'a',
+            null,
+            _react2.default.createElement('i', { className: 'ti-user' }),
+            'Profile'
+          )
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement(
+            'a',
+            null,
+            _react2.default.createElement('i', { className: 'ti-email' }),
+            'My Messages'
+          )
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement(
+            'a',
+            null,
+            _react2.default.createElement('i', { className: 'ti-lock' }),
+            'Lock Screen'
+          )
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement(
+            'a',
+            null,
+            _react2.default.createElement('i', { className: 'ti-layout-sidebar-left' }),
+            'Logout'
+          )
+        )
+      );
+    }
+  }]);
+
+  return ProfileMenu;
+}(_react.Component);
 
 exports.default = ProfileMenu;
 
@@ -6844,13 +6920,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
-
-var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
@@ -6860,7 +6934,20 @@ var _Menu = __webpack_require__(/*! ./Menu */ "./src/components/sidebar/Menu.jsx
 
 var _Menu2 = _interopRequireDefault(_Menu);
 
+var _velocityAnimate = __webpack_require__(/*! velocity-animate */ "./node_modules/velocity-animate/velocity.js");
+
+var _velocityAnimate2 = _interopRequireDefault(_velocityAnimate);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by Jaison.Jacob on 7/11/2018.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+
 
 var mapProps = function mapProps(disptach) {
   return {
@@ -6868,49 +6955,75 @@ var mapProps = function mapProps(disptach) {
       disptach({ type: _types.SET_SELECTED_MENU, item: item });
     }
   };
-}; /**
-    * Created by Jaison.Jacob on 7/11/2018.
-    */
-
-
-var SideBar = function SideBar(props) {
-  var nav = props.nav,
-      onMenuSelected = props.onMenuSelected;
-  var displaySideBar = nav.displaySideBar,
-      menu = nav.menu;
-
-  var c = (0, _classnames2.default)({
-    'side-bar': true,
-    'side-bar-sm': !displaySideBar
-  });
-
-  return _react2.default.createElement(
-    'nav',
-    { className: c },
-    _react2.default.createElement(
-      'div',
-      { className: 'main-menu' },
-      menu.content.map(function (s, h) {
-        return _react2.default.createElement(
-          'div',
-          { key: h },
-          _react2.default.createElement(
-            'div',
-            { className: 'nav-label' },
-            s.label
-          ),
-          _react2.default.createElement(
-            'ul',
-            { className: 'left-item' },
-            s.content.map(function (item, i) {
-              return _react2.default.createElement(_Menu2.default, { item: item, key: i, menu: menu, onMenuSelected: onMenuSelected });
-            })
-          )
-        );
-      })
-    )
-  );
 };
+
+var SideBar = function (_Component) {
+  _inherits(SideBar, _Component);
+
+  function SideBar() {
+    _classCallCheck(this, SideBar);
+
+    var _this = _possibleConstructorReturn(this, (SideBar.__proto__ || Object.getPrototypeOf(SideBar)).call(this));
+
+    _this.el = _react2.default.createRef();
+    return _this;
+  }
+
+  _createClass(SideBar, [{
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(nxtProps) {
+      this.animateMe(nxtProps.status);
+    }
+  }, {
+    key: 'animateMe',
+    value: function animateMe(status) {
+      var el = this.el.current;
+
+      if (status === "exiting") (0, _velocityAnimate2.default)(el, { marginLeft: -260, opacity: 0 }, { duration: 250 });
+
+      if (status === "entering") (0, _velocityAnimate2.default)(el, { marginLeft: 0, opacity: 1 }, { duration: 250 });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _props = this.props,
+          nav = _props.nav,
+          onMenuSelected = _props.onMenuSelected;
+      var menu = nav.menu;
+
+      return _react2.default.createElement(
+        'nav',
+        { className: 'side-bar', ref: this.el },
+        _react2.default.createElement(
+          'div',
+          { className: 'main-menu' },
+          menu.content.map(function (s, h) {
+            return _react2.default.createElement(
+              'div',
+              { key: h },
+              _react2.default.createElement(
+                'div',
+                { className: 'nav-label' },
+                s.label
+              ),
+              _react2.default.createElement(
+                'ul',
+                { className: 'left-item' },
+                s.content.map(function (item, i) {
+                  return _react2.default.createElement(_Menu2.default, { item: item, key: i, menu: menu, onMenuSelected: onMenuSelected });
+                })
+              )
+            );
+          })
+        )
+      );
+    }
+  }]);
+
+  return SideBar;
+}(_react.Component);
+
+;
 
 exports.default = (0, _reactRedux.connect)(function () {
   return {};
