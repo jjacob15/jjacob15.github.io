@@ -5151,6 +5151,8 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
+
 var _Sidebar = __webpack_require__(/*! ./sidebar/Sidebar */ "./src/components/sidebar/Sidebar.jsx");
 
 var _Sidebar2 = _interopRequireDefault(_Sidebar);
@@ -5158,8 +5160,6 @@ var _Sidebar2 = _interopRequireDefault(_Sidebar);
 var _Landing = __webpack_require__(/*! ./landing/Landing */ "./src/components/landing/Landing.jsx");
 
 var _Landing2 = _interopRequireDefault(_Landing);
-
-var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6089,6 +6089,8 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
+var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
+
 var _Tabs = __webpack_require__(/*! ./Tabs */ "./src/components/landing/nav/Tabs.jsx");
 
 var _Tabs2 = _interopRequireDefault(_Tabs);
@@ -6102,8 +6104,6 @@ var _CollapseIcon2 = _interopRequireDefault(_CollapseIcon);
 var _OptionButtons = __webpack_require__(/*! ./OptionButtons */ "./src/components/landing/nav/OptionButtons.jsx");
 
 var _OptionButtons2 = _interopRequireDefault(_OptionButtons);
-
-var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6354,6 +6354,8 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
+
 var _NavBarLogo = __webpack_require__(/*! ./NavBarLogo */ "./src/components/nav/NavBarLogo.jsx");
 
 var _NavBarLogo2 = _interopRequireDefault(_NavBarLogo);
@@ -6361,8 +6363,6 @@ var _NavBarLogo2 = _interopRequireDefault(_NavBarLogo);
 var _NavRight = __webpack_require__(/*! ./NavRight */ "./src/components/nav/NavRight.jsx");
 
 var _NavRight2 = _interopRequireDefault(_NavRight);
-
-var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6507,6 +6507,12 @@ var _classnames = __webpack_require__(/*! classnames */ "./node_modules/classnam
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+var _velocityAnimate = __webpack_require__(/*! velocity-animate */ "./node_modules/velocity-animate/velocity.js");
+
+var _velocityAnimate2 = _interopRequireDefault(_velocityAnimate);
+
+var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
+
 var _ProfileMenu = __webpack_require__(/*! ./ProfileMenu */ "./src/components/nav/ProfileMenu.jsx");
 
 var _ProfileMenu2 = _interopRequireDefault(_ProfileMenu);
@@ -6518,12 +6524,6 @@ var _FullScreen2 = _interopRequireDefault(_FullScreen);
 var _NotificationIcons = __webpack_require__(/*! ./NotificationIcons */ "./src/components/nav/NotificationIcons.jsx");
 
 var _NotificationIcons2 = _interopRequireDefault(_NotificationIcons);
-
-var _velocityAnimate = __webpack_require__(/*! velocity-animate */ "./node_modules/velocity-animate/velocity.js");
-
-var _velocityAnimate2 = _interopRequireDefault(_velocityAnimate);
-
-var _reactTransitionGroup = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/index.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6551,6 +6551,8 @@ var NavRight = function (_React$Component) {
     _this.toggleMenu = _this.toggleMenu.bind(_this);
     _this.el = _react2.default.createRef();
     _this.animateMe = _this.animateMe.bind(_this);
+
+    _this.currentState;
     return _this;
   }
 
@@ -6559,9 +6561,13 @@ var NavRight = function (_React$Component) {
     value: function componentWillReceiveProps(next) {
       var status = next.status,
           nav = next.nav;
-      var isSmallDevice = nav.isSmallDevice;
+      var isSmallDevice = nav.isSmallDevice,
+          headerMinimized = nav.headerMinimized;
 
 
+      if (!isSmallDevice && this.currentState !== 'exited') return;
+
+      console.log(isSmallDevice, headerMinimized, status);
       this.animateMe(isSmallDevice ? status : 'entering');
     }
   }, {
@@ -6569,8 +6575,12 @@ var NavRight = function (_React$Component) {
     value: function animateMe(status) {
       var el = this.el.current;
 
-      if (status === "entering") (0, _velocityAnimate2.default)(el, 'slideDown', { duration: 250, ease: 'ease-in-out' });
-      if (status === "exiting" || status === "exited") (0, _velocityAnimate2.default)(el, 'slideUp', { duration: 250, ease: 'ease-in-out' });
+      if (this.currentState !== status) {
+        if (status === 'entering') (0, _velocityAnimate2.default)(el, 'slideDown', { duration: 250, ease: 'ease-in-out' });
+        if (status === 'exiting' || status === 'exited') (0, _velocityAnimate2.default)(el, 'slideUp', { duration: 250, ease: 'ease-in-out' });
+
+        this.currentState = status;
+      }
     }
   }, {
     key: 'toggleMenu',
@@ -6643,7 +6653,7 @@ exports.default = NavRight;
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
@@ -6653,30 +6663,30 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function () {
-    return _react2.default.createElement(
-        "span",
+  return _react2.default.createElement(
+    "span",
+    null,
+    _react2.default.createElement(
+      "li",
+      { className: "", title: "Notification" },
+      _react2.default.createElement(
+        "a",
         null,
-        _react2.default.createElement(
-            "li",
-            { className: "", title: "Notification" },
-            _react2.default.createElement(
-                "a",
-                null,
-                _react2.default.createElement("i", { className: "ti-bell" }),
-                _react2.default.createElement("span", { className: "badge bg-c-pink" })
-            )
-        ),
-        _react2.default.createElement(
-            "li",
-            { className: "", title: "Chat" },
-            _react2.default.createElement(
-                "a",
-                { className: "displayChatbox" },
-                _react2.default.createElement("i", { className: "ti-comments" }),
-                _react2.default.createElement("span", { className: "badge bg-c-green" })
-            )
-        )
-    );
+        _react2.default.createElement("i", { className: "ti-bell" }),
+        _react2.default.createElement("span", { className: "badge bg-c-pink" })
+      )
+    ),
+    _react2.default.createElement(
+      "li",
+      { className: "", title: "Chat" },
+      _react2.default.createElement(
+        "a",
+        { className: "displayChatbox" },
+        _react2.default.createElement("i", { className: "ti-comments" }),
+        _react2.default.createElement("span", { className: "badge bg-c-green" })
+      )
+    )
+  );
 };
 
 /***/ }),
@@ -6727,6 +6737,7 @@ var ProfileMenu = function (_Component) {
 
     _this.el = _react2.default.createRef();
     _this.animateMe = _this.animateMe.bind(_this);
+    _this.currentState;
     return _this;
   }
 
@@ -6740,14 +6751,16 @@ var ProfileMenu = function (_Component) {
     value: function animateMe(status) {
       var el = this.el.current;
 
-      if (status === "entering") (0, _velocityAnimate2.default)(el, 'slideDown', { duration: 250, ease: 'ease-in-out' });
-      if (status === "exiting") (0, _velocityAnimate2.default)(el, 'slideUp', { duration: 250, ease: 'ease-in-out' });
+      if (this.currentState !== status) {
+        if (status === 'entering') (0, _velocityAnimate2.default)(el, 'slideDown', { duration: 250, ease: 'ease-in-out' });
+        if (status === 'exiting') (0, _velocityAnimate2.default)(el, 'slideUp', { duration: 250, ease: 'ease-in-out' });
+
+        this.currentState = status;
+      }
     }
   }, {
     key: 'render',
     value: function render() {
-      var show = this.props.show;
-
       var c = (0, _classnames2.default)({
         'show-notification': true,
         'profile-notification': true
@@ -6928,15 +6941,15 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
+var _velocityAnimate = __webpack_require__(/*! velocity-animate */ "./node_modules/velocity-animate/velocity.js");
+
+var _velocityAnimate2 = _interopRequireDefault(_velocityAnimate);
+
 var _types = __webpack_require__(/*! ../../constants/types */ "./src/constants/types.js");
 
 var _Menu = __webpack_require__(/*! ./Menu */ "./src/components/sidebar/Menu.jsx");
 
 var _Menu2 = _interopRequireDefault(_Menu);
-
-var _velocityAnimate = __webpack_require__(/*! velocity-animate */ "./node_modules/velocity-animate/velocity.js");
-
-var _velocityAnimate2 = _interopRequireDefault(_velocityAnimate);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6979,9 +6992,9 @@ var SideBar = function (_Component) {
     value: function animateMe(status) {
       var el = this.el.current;
 
-      if (status === "exiting") (0, _velocityAnimate2.default)(el, { marginLeft: -260, opacity: 0 }, { duration: 250 });
+      if (status === 'exiting') (0, _velocityAnimate2.default)(el, { marginLeft: -260, opacity: 0 }, { duration: 250 });
 
-      if (status === "entering") (0, _velocityAnimate2.default)(el, { marginLeft: 0, opacity: 1 }, { duration: 250 });
+      if (status === 'entering') (0, _velocityAnimate2.default)(el, { marginLeft: 0, opacity: 1 }, { duration: 250 });
     }
   }, {
     key: 'render',
@@ -7022,8 +7035,6 @@ var SideBar = function (_Component) {
 
   return SideBar;
 }(_react.Component);
-
-;
 
 exports.default = (0, _reactRedux.connect)(function () {
   return {};
@@ -7166,7 +7177,7 @@ var Accordian = function (_React$Component) {
           { className: 'accordion-panel' },
           _react2.default.createElement(
             'div',
-            { className: 'accordion-heading', onClick: this.handleClick },
+            { className: 'accordion-heading', onClick: this.handleClick, onKeyDown: this.handleClick },
             _react2.default.createElement(
               'h3',
               { className: 'card-title accordion-title' },
