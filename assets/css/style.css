@@ -179,7 +179,7 @@ a {
     color: #222;
     cursor: pointer; }
   .md-tabs .nav-item {
-    width: calc(100% / 4);
+    width: calc(100% / 10);
     text-align: center; }
   .md-tabs .nav-link:focus,
   .md-tabs .nav-link:hover {
@@ -206,7 +206,7 @@ a {
 
 .nav-tabs .slide {
   background: #4099ff;
-  width: calc(100% / 4);
+  width: calc(100% / 10);
   height: 4px;
   position: absolute;
   -webkit-transition: left 0.3s ease-out;
@@ -296,6 +296,23 @@ a.bg-danger:hover {
   visibility: hidden; }
 
 /**====== Accordion css end ======**/
+.margin-bottom * {
+  margin-bottom: 1em; }
+
+.fa {
+  cursor: pointer;
+  color: #8c8c8c; }
+
+.modal-title {
+  font-weight: 600;
+  margin-bottom: 20px; }
+
+/**  =====================
+      Test Control program css start
+==========================  **/
+/**  =====================
+      Test Control program css end
+==========================  **/
 .header-navbar {
   background: linear-gradient(to right, #3b4650, #647688);
   position: fixed;
@@ -911,15 +928,15 @@ a.bg-danger:hover {
   color: #fff;
   cursor: pointer;
   transition: all ease-in 0.3s; }
-  .btn-inverse:hover {
+  .btn-inverse:hover:enabled {
     background-color: #3c3c3c;
     border-color: #3c3c3c; }
-  .btn-inverse:active {
+  .btn-inverse:active:enabled {
     background-color: #030303 !important;
     border-color: #030303;
     box-shadow: none;
     color: #fff; }
-  .btn-inverse:focus {
+  .btn-inverse:focus:enabled {
     box-shadow: none;
     color: #fff;
     background-color: #3c3c3c; }
@@ -982,7 +999,7 @@ a.bg-danger:hover {
   color: #030303;
   background-color: #fff;
   background-color: transparent; }
-  .btn-outline-inverse:hover {
+  .btn-outline-inverse:hover:enabled {
     color: #fff; }
 
 .btn-outline-warning {
