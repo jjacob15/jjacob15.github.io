@@ -1063,83 +1063,83 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 function actions(dispatch) {
-    return {
-        handleClick: function handleClick(fromId) {
-            return dispatch((0, _actions.onSideBarMenuSelected)((0, _menu.getLink)(fromId)));
-        }
-    };
+  return {
+    handleClick: function handleClick(fromId) {
+      return dispatch((0, _actions.onSideBarMenuSelected)((0, _menu.getLink)(fromId)));
+    }
+  };
 }
 
 var HomeContainer = function (_React$Component) {
-    _inherits(HomeContainer, _React$Component);
+  _inherits(HomeContainer, _React$Component);
 
-    function HomeContainer() {
-        _classCallCheck(this, HomeContainer);
+  function HomeContainer() {
+    _classCallCheck(this, HomeContainer);
 
-        var _this = _possibleConstructorReturn(this, (HomeContainer.__proto__ || Object.getPrototypeOf(HomeContainer)).call(this));
+    var _this = _possibleConstructorReturn(this, (HomeContainer.__proto__ || Object.getPrototypeOf(HomeContainer)).call(this));
 
-        _this.handleClick = _this.handleClick.bind(_this);
-        return _this;
+    _this.handleClick = _this.handleClick.bind(_this);
+    return _this;
+  }
+
+  _createClass(HomeContainer, [{
+    key: 'handleClick',
+    value: function handleClick(fromId) {
+      this.props.handleClick(fromId);
     }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'div',
+          { className: 'row' },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-md-7 col-lg-7' },
+            _react2.default.createElement(_aboutEai2.default, null)
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-md-5 col-lg-5' },
+            _react2.default.createElement(_login2.default, null)
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'row' },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-md-3 col-lg-3' },
+            _react2.default.createElement(_IExtractLink2.default, null)
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-md-3 col-lg-3' },
+            _react2.default.createElement(_IModelLink2.default, null)
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-md-3 col-lg-3' },
+            _react2.default.createElement(_IApplyLink2.default, { onClick: this.handleClick })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-md-3 col-lg-3' },
+            _react2.default.createElement(_IPlanLink2.default, null)
+          )
+        )
+      );
+    }
+  }]);
 
-    _createClass(HomeContainer, [{
-        key: 'handleClick',
-        value: function handleClick(fromId) {
-            this.props.handleClick(fromId);
-        }
-    }, {
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'div',
-                null,
-                _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'col-md-7 col-lg-7' },
-                        _react2.default.createElement(_aboutEai2.default, null)
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'col-md-5 col-lg-5' },
-                        _react2.default.createElement(_login2.default, null)
-                    )
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'col-md-3 col-lg-3' },
-                        _react2.default.createElement(_IExtractLink2.default, null)
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'col-md-3 col-lg-3' },
-                        _react2.default.createElement(_IModelLink2.default, null)
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'col-md-3 col-lg-3' },
-                        _react2.default.createElement(_IApplyLink2.default, { onClick: this.handleClick })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'col-md-3 col-lg-3' },
-                        _react2.default.createElement(_IPlanLink2.default, null)
-                    )
-                )
-            );
-        }
-    }]);
-
-    return HomeContainer;
+  return HomeContainer;
 }(_react2.default.Component);
 
 module.exports = (0, _reactRedux.connect)(function () {
-    return {};
+  return {};
 }, actions)(HomeContainer);
 
 /***/ }),
@@ -1169,53 +1169,57 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var IApply = function (_React$Component) {
-    _inherits(IApply, _React$Component);
+  _inherits(IApply, _React$Component);
 
-    function IApply() {
-        _classCallCheck(this, IApply);
+  function IApply() {
+    _classCallCheck(this, IApply);
 
-        var _this = _possibleConstructorReturn(this, (IApply.__proto__ || Object.getPrototypeOf(IApply)).call(this));
+    var _this = _possibleConstructorReturn(this, (IApply.__proto__ || Object.getPrototypeOf(IApply)).call(this));
 
-        _this.handleClick = _this.handleClick.bind(_this);
-        return _this;
+    _this.handleClick = _this.handleClick.bind(_this);
+    return _this;
+  }
+
+  _createClass(IApply, [{
+    key: "handleClick",
+    value: function handleClick() {
+      this.props.onClick(7);
     }
+  }, {
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "card" },
+        _react2.default.createElement(
+          "div",
+          { className: "card-block text-center" },
+          _react2.default.createElement(
+            "div",
+            { className: "m-t-10 m-b-30" },
+            _react2.default.createElement("i", { className: "fa fa-globe text-c-green d-block f-50" })
+          ),
+          _react2.default.createElement(
+            "h4",
+            { className: "m-t-20" },
+            "iApply"
+          ),
+          _react2.default.createElement(
+            "p",
+            { className: "m-b-25" },
+            "View business metrics"
+          ),
+          _react2.default.createElement(
+            "button",
+            { className: "btn btn-primary btn-sm btn-round", onClick: this.handleClick },
+            "Enter"
+          )
+        )
+      );
+    }
+  }]);
 
-    _createClass(IApply, [{
-        key: "handleClick",
-        value: function handleClick() {
-            this.props.onClick(7);
-        }
-    }, {
-        key: "render",
-        value: function render() {
-            return _react2.default.createElement(
-                "div",
-                { className: "card" },
-                _react2.default.createElement(
-                    "div",
-                    { className: "card-block text-center" },
-                    _react2.default.createElement("img", { alt: "avatar", src: __webpack_require__(/*! ../../../../assets/images/avatar-4.jpg */ "./assets/images/avatar-4.jpg"), className: "img-radius" }),
-                    _react2.default.createElement(
-                        "h4",
-                        { className: "m-t-20" },
-                        "iApply"
-                    ),
-                    _react2.default.createElement(
-                        "p",
-                        { className: "m-b-20" },
-                        "Your main list is growing"
-                    ),
-                    _react2.default.createElement(
-                        "button",
-                        { className: "btn btn-info btn-sm btn-round", onClick: this.handleClick },
-                        "Enter"
-                    )
-                )
-            );
-        }
-    }]);
-
-    return IApply;
+  return IApply;
 }(_react2.default.Component);
 
 module.exports = IApply;
@@ -1247,45 +1251,49 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var IExtract = function (_React$Component) {
-    _inherits(IExtract, _React$Component);
+  _inherits(IExtract, _React$Component);
 
-    function IExtract() {
-        _classCallCheck(this, IExtract);
+  function IExtract() {
+    _classCallCheck(this, IExtract);
 
-        return _possibleConstructorReturn(this, (IExtract.__proto__ || Object.getPrototypeOf(IExtract)).call(this));
+    return _possibleConstructorReturn(this, (IExtract.__proto__ || Object.getPrototypeOf(IExtract)).call(this));
+  }
+
+  _createClass(IExtract, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "card" },
+        _react2.default.createElement(
+          "div",
+          { className: "card-block text-center" },
+          _react2.default.createElement(
+            "div",
+            { className: "m-t-10 m-b-30" },
+            _react2.default.createElement("i", { className: "fa fa-server text-c-green d-block f-50" })
+          ),
+          _react2.default.createElement(
+            "h4",
+            { className: "m-t-20" },
+            "iExtract"
+          ),
+          _react2.default.createElement(
+            "p",
+            { className: "m-b-25" },
+            "Extract and process data"
+          ),
+          _react2.default.createElement(
+            "button",
+            { className: "btn btn-primary btn-sm btn-round" },
+            "Enter"
+          )
+        )
+      );
     }
+  }]);
 
-    _createClass(IExtract, [{
-        key: "render",
-        value: function render() {
-            return _react2.default.createElement(
-                "div",
-                { className: "card" },
-                _react2.default.createElement(
-                    "div",
-                    { className: "card-block text-center" },
-                    _react2.default.createElement("img", { alt: "avatar", src: __webpack_require__(/*! ../../../../assets/images/avatar-4.jpg */ "./assets/images/avatar-4.jpg"), className: "img-radius" }),
-                    _react2.default.createElement(
-                        "h4",
-                        { className: "m-t-20" },
-                        "iExtract"
-                    ),
-                    _react2.default.createElement(
-                        "p",
-                        { className: "m-b-20" },
-                        "Your main list is growing"
-                    ),
-                    _react2.default.createElement(
-                        "button",
-                        { className: "btn btn-primary btn-sm btn-round" },
-                        "Enter"
-                    )
-                )
-            );
-        }
-    }]);
-
-    return IExtract;
+  return IExtract;
 }(_react2.default.Component);
 
 module.exports = IExtract;
@@ -1317,45 +1325,49 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var IModel = function (_React$Component) {
-    _inherits(IModel, _React$Component);
+  _inherits(IModel, _React$Component);
 
-    function IModel() {
-        _classCallCheck(this, IModel);
+  function IModel() {
+    _classCallCheck(this, IModel);
 
-        return _possibleConstructorReturn(this, (IModel.__proto__ || Object.getPrototypeOf(IModel)).call(this));
+    return _possibleConstructorReturn(this, (IModel.__proto__ || Object.getPrototypeOf(IModel)).call(this));
+  }
+
+  _createClass(IModel, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "card" },
+        _react2.default.createElement(
+          "div",
+          { className: "card-block text-center" },
+          _react2.default.createElement(
+            "div",
+            { className: "m-t-10 m-b-30" },
+            _react2.default.createElement("i", { className: "fa fa-line-chart text-c-green d-block f-50" })
+          ),
+          _react2.default.createElement(
+            "h4",
+            { className: "m-t-20" },
+            "iModel"
+          ),
+          _react2.default.createElement(
+            "p",
+            { className: "m-b-25" },
+            "Create statistical models"
+          ),
+          _react2.default.createElement(
+            "button",
+            { className: "btn btn-primary btn-sm btn-round" },
+            "Enter"
+          )
+        )
+      );
     }
+  }]);
 
-    _createClass(IModel, [{
-        key: "render",
-        value: function render() {
-            return _react2.default.createElement(
-                "div",
-                { className: "card" },
-                _react2.default.createElement(
-                    "div",
-                    { className: "card-block text-center" },
-                    _react2.default.createElement("img", { alt: "avatar", src: __webpack_require__(/*! ../../../../assets/images/avatar-4.jpg */ "./assets/images/avatar-4.jpg"), className: "img-radius" }),
-                    _react2.default.createElement(
-                        "h4",
-                        { className: "m-t-20" },
-                        "iModel"
-                    ),
-                    _react2.default.createElement(
-                        "p",
-                        { className: "m-b-20" },
-                        "Your main list is growing"
-                    ),
-                    _react2.default.createElement(
-                        "button",
-                        { className: "btn btn-success btn-sm btn-round" },
-                        "Enter"
-                    )
-                )
-            );
-        }
-    }]);
-
-    return IModel;
+  return IModel;
 }(_react2.default.Component);
 
 module.exports = IModel;
@@ -1387,45 +1399,49 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var IPlan = function (_React$Component) {
-    _inherits(IPlan, _React$Component);
+  _inherits(IPlan, _React$Component);
 
-    function IPlan() {
-        _classCallCheck(this, IPlan);
+  function IPlan() {
+    _classCallCheck(this, IPlan);
 
-        return _possibleConstructorReturn(this, (IPlan.__proto__ || Object.getPrototypeOf(IPlan)).call(this));
+    return _possibleConstructorReturn(this, (IPlan.__proto__ || Object.getPrototypeOf(IPlan)).call(this));
+  }
+
+  _createClass(IPlan, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "card" },
+        _react2.default.createElement(
+          "div",
+          { className: "card-block text-center" },
+          _react2.default.createElement(
+            "div",
+            { className: "m-t-10 m-b-30" },
+            _react2.default.createElement("i", { className: "fa fa-calendar text-c-green d-block f-50" })
+          ),
+          _react2.default.createElement(
+            "h4",
+            { className: "m-t-20" },
+            "iPlan"
+          ),
+          _react2.default.createElement(
+            "p",
+            { className: "m-b-25" },
+            "Simulate business scenarios"
+          ),
+          _react2.default.createElement(
+            "button",
+            { className: "btn btn-primary btn-sm btn-round" },
+            "Enter"
+          )
+        )
+      );
     }
+  }]);
 
-    _createClass(IPlan, [{
-        key: "render",
-        value: function render() {
-            return _react2.default.createElement(
-                "div",
-                { className: "card" },
-                _react2.default.createElement(
-                    "div",
-                    { className: "card-block text-center" },
-                    _react2.default.createElement("img", { alt: "avatar", src: __webpack_require__(/*! ../../../../assets/images/avatar-4.jpg */ "./assets/images/avatar-4.jpg"), className: "img-radius" }),
-                    _react2.default.createElement(
-                        "h4",
-                        { className: "m-t-20" },
-                        "iPlan"
-                    ),
-                    _react2.default.createElement(
-                        "p",
-                        { className: "m-b-20" },
-                        "Your main list is growing"
-                    ),
-                    _react2.default.createElement(
-                        "button",
-                        { className: "btn btn-warning btn-sm btn-round" },
-                        "Enter"
-                    )
-                )
-            );
-        }
-    }]);
-
-    return IPlan;
+  return IPlan;
 }(_react2.default.Component);
 
 module.exports = IPlan;
@@ -1457,45 +1473,45 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 module.exports = function (_Component) {
-    _inherits(AboutEai, _Component);
+  _inherits(AboutEai, _Component);
 
-    function AboutEai() {
-        _classCallCheck(this, AboutEai);
+  function AboutEai() {
+    _classCallCheck(this, AboutEai);
 
-        return _possibleConstructorReturn(this, (AboutEai.__proto__ || Object.getPrototypeOf(AboutEai)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (AboutEai.__proto__ || Object.getPrototypeOf(AboutEai)).apply(this, arguments));
+  }
+
+  _createClass(AboutEai, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "card" },
+        _react2.default.createElement(
+          "div",
+          { className: "card-body" },
+          _react2.default.createElement(
+            "div",
+            { className: "EAImage" },
+            _react2.default.createElement("img", { src: "../../../../../assets/images/EAi.png", alt: "About EAI", style: { height: '100%', width: '100%' } })
+          ),
+          _react2.default.createElement("hr", null),
+          _react2.default.createElement(
+            "h6",
+            { className: "f-w-600 m-b-10" },
+            "Enterprise Analytics Intelligence"
+          ),
+          _react2.default.createElement(
+            "span",
+            { className: "text-muted m-t-15" },
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+          )
+        )
+      );
     }
+  }]);
 
-    _createClass(AboutEai, [{
-        key: "render",
-        value: function render() {
-            return _react2.default.createElement(
-                "div",
-                { className: "card" },
-                _react2.default.createElement(
-                    "div",
-                    { className: "card-body" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "usre-image" },
-                        _react2.default.createElement("img", { src: "../../../../../assets/images/gold-coast-nature.jpg", alt: "User-Profile-Image", style: { height: '100%', width: '100%' } })
-                    ),
-                    _react2.default.createElement("hr", null),
-                    _react2.default.createElement(
-                        "h6",
-                        { className: "f-w-600 m-t-25 m-b-10" },
-                        "Enterprise Analytics Intelligence"
-                    ),
-                    _react2.default.createElement(
-                        "p",
-                        { className: "text-muted m-t-15" },
-                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-                    )
-                )
-            );
-        }
-    }]);
-
-    return AboutEai;
+  return AboutEai;
 }(_react.Component);
 
 /***/ }),
@@ -1545,103 +1561,123 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 module.exports = function (_Component) {
-    _inherits(AboutEai, _Component);
+  _inherits(Login, _Component);
 
-    function AboutEai() {
-        _classCallCheck(this, AboutEai);
+  function Login() {
+    _classCallCheck(this, Login);
 
-        return _possibleConstructorReturn(this, (AboutEai.__proto__ || Object.getPrototypeOf(AboutEai)).apply(this, arguments));
-    }
+    return _possibleConstructorReturn(this, (Login.__proto__ || Object.getPrototypeOf(Login)).apply(this, arguments));
+  }
 
-    _createClass(AboutEai, [{
-        key: "render",
-        value: function render() {
-            return _react2.default.createElement(
+  _createClass(Login, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "card" },
+        _react2.default.createElement(
+          "div",
+          { className: "card-body" },
+          _react2.default.createElement(
+            "div",
+            { className: "m-t-10 m-b-20" },
+            _react2.default.createElement(
+              "h4",
+              { className: "text-left txt-primary" },
+              "Sign In"
+            )
+          ),
+          _react2.default.createElement("hr", null),
+          _react2.default.createElement(
+            "form",
+            null,
+            _react2.default.createElement(
+              "div",
+              { className: "input-group" },
+              _react2.default.createElement("input", { type: "email", className: "form-control", placeholder: "Your Email Address" }),
+              _react2.default.createElement("span", { className: "md-line" })
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "input-group" },
+              _react2.default.createElement("input", { type: "password", className: "form-control", placeholder: "Password" }),
+              _react2.default.createElement("span", { className: "md-line" })
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "row m-t-25 text-left" },
+              _react2.default.createElement(
                 "div",
-                { className: "card" },
+                { className: "col-12" },
                 _react2.default.createElement(
-                    "div",
-                    { className: "card-header" },
+                  "div",
+                  { className: "checkbox-fade fade-in-primary d-" },
+                  _react2.default.createElement(
+                    "label",
+                    null,
+                    _react2.default.createElement("input", { type: "checkbox", value: "" }),
                     _react2.default.createElement(
-                        "h3",
-                        { className: "text-left txt-primary" },
-                        "Sign In"
+                      "span",
+                      { className: "cr" },
+                      _react2.default.createElement("i", { className: "cr-icon icofont icofont-ui-check txt-primary" })
+                    ),
+                    _react2.default.createElement(
+                      "span",
+                      { className: "text-inverse" },
+                      "Remember me"
                     )
+                  )
                 ),
                 _react2.default.createElement(
-                    "div",
-                    { className: "card-body" },
-                    _react2.default.createElement(
-                        "form",
-                        null,
-                        _react2.default.createElement(
-                            "div",
-                            { className: "input-group" },
-                            _react2.default.createElement("input", { type: "email", className: "form-control", placeholder: "Your Email Address" }),
-                            _react2.default.createElement("span", { className: "md-line" })
-                        ),
-                        _react2.default.createElement(
-                            "div",
-                            { className: "input-group" },
-                            _react2.default.createElement("input", { type: "password", className: "form-control", placeholder: "Password" }),
-                            _react2.default.createElement("span", { className: "md-line" })
-                        ),
-                        _react2.default.createElement(
-                            "div",
-                            { className: "row m-t-25 text-left" },
-                            _react2.default.createElement(
-                                "div",
-                                { className: "col-12" },
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "checkbox-fade fade-in-primary d-" },
-                                    _react2.default.createElement(
-                                        "label",
-                                        null,
-                                        _react2.default.createElement("input", { type: "checkbox", value: "" }),
-                                        _react2.default.createElement(
-                                            "span",
-                                            { className: "cr" },
-                                            _react2.default.createElement("i", { className: "cr-icon icofont icofont-ui-check txt-primary" })
-                                        ),
-                                        _react2.default.createElement(
-                                            "span",
-                                            { className: "text-inverse" },
-                                            "Remember me"
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "forgot-phone text-right f-right" },
-                                    _react2.default.createElement(
-                                        "a",
-                                        { href: "auth-reset-password.html", className: "text-right f-w-600 text-inverse" },
-                                        " Forgot Password?"
-                                    )
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "div",
-                            { className: "row m-t-30" },
-                            _react2.default.createElement(
-                                "div",
-                                { className: "col-md-12" },
-                                _react2.default.createElement(
-                                    "button",
-                                    { type: "button", className: "btn btn-primary btn-md btn-block waves-effect text-center m-b-20" },
-                                    "Sign in"
-                                )
-                            )
-                        )
-                    )
+                  "div",
+                  { className: "forgot-phone text-right f-right" },
+                  _react2.default.createElement(
+                    "a",
+                    { href: "auth-reset-password.html", className: "text-right f-w-600" },
+                    "Forgot Password?"
+                  )
                 )
-            );
-        }
-    }]);
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "row m-t-20" },
+              _react2.default.createElement(
+                "div",
+                { className: "col-md-12" },
+                _react2.default.createElement(
+                  "button",
+                  { type: "button", className: "btn btn-primary btn-md btn-block waves-effect text-center m-b-20" },
+                  "Sign in"
+                )
+              )
+            )
+          ),
+          _react2.default.createElement("hr", null),
+          _react2.default.createElement(
+            "div",
+            { className: "row" },
+            _react2.default.createElement(
+              "div",
+              { className: "col-md-10" },
+              _react2.default.createElement(
+                "p",
+                { className: "text-inverse text-left m-b-0" },
+                "Thank you and enjoy our website."
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "col-md-2" },
+              _react2.default.createElement("img", { src: "../../../../../assets/images/logo-small.png", alt: "About EAI", style: { width: '100%' } })
+            )
+          )
+        )
+      );
+    }
+  }]);
 
-    return AboutEai;
+  return Login;
 }(_react.Component);
 
 /***/ }),
@@ -1849,9 +1885,14 @@ var Page = function (_React$Component) {
         'div',
         null,
         _react2.default.createElement(
-          'h5',
-          null,
-          'iApply'
+          'div',
+          { className: 'row' },
+          _react2.default.createElement('i', { className: 'fa fa-globe text-c-green d-block f-40 m-l-20' }),
+          _react2.default.createElement(
+            'h4',
+            { className: 'm-l-20' },
+            'iApply'
+          )
         ),
         _react2.default.createElement(
           'div',
@@ -1876,7 +1917,336 @@ var Page = function (_React$Component) {
                 'div',
                 { className: 'col-xl-4 col-md-6 col-sm-12' },
                 _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+              )
+            )
+          ),
+          _react2.default.createElement(
+            _accordian2.default,
+            { title: 'Digital Media Effectiveness' },
+            _react2.default.createElement(
+              'div',
+              { className: 'card' },
+              _react2.default.createElement(
+                'div',
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { 'class': 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { 'class': 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { 'class': 'feed-user-img' },
+                      _react2.default.createElement('img', {
+                        alt: 'Digital Media ROI',
+                        src: __webpack_require__(/*! ../../../../../assets/images/avatar-4.jpg */ "./assets/images/avatar-4.jpg"),
+                        className: 'img-radius'
+                      })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { 'class': 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { 'class': 'fa fa-sign-in text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { 'class': 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { 'class': 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { 'class': 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { 'class': 'feed-user-img' },
+                      _react2.default.createElement('img', {
+                        alt: 'Consumer Pathway',
+                        src: __webpack_require__(/*! ../../../../../assets/images/avatar-4.jpg */ "./assets/images/avatar-4.jpg"),
+                        className: 'img-radius'
+                      })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { 'class': 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { 'class': 'fa fa-sign-in text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { 'class': 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { 'class': 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { 'class': 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { 'class': 'feed-user-img' },
+                      _react2.default.createElement('img', {
+                        alt: 'Digital Media ROI',
+                        src: __webpack_require__(/*! ../../../../../assets/images/avatar-4.jpg */ "./assets/images/avatar-4.jpg"),
+                        className: 'img-radius'
+                      })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { 'class': 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { 'class': 'fa fa-sign-in text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { 'class': 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { 'class': 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            _accordian2.default,
+            { title: 'Pricing Effectiveness' },
+            _react2.default.createElement(
+              'div',
+              { className: 'row m-t-20' },
+              _react2.default.createElement(
+                'ul',
+                { 'class': 'feed-blog' },
+                _react2.default.createElement(
+                  'li',
+                  { 'class': 'active-feed' },
+                  _react2.default.createElement(
+                    'div',
+                    { 'class': 'feed-user-img' },
+                    _react2.default.createElement('img', {
+                      alt: 'Digital Media ROI',
+                      src: __webpack_require__(/*! ../../../../../assets/images/avatar-4.jpg */ "./assets/images/avatar-4.jpg"),
+                      className: 'img-radius'
+                    })
+                  ),
+                  _react2.default.createElement(
+                    'h6',
+                    { className: 'm-b-0' },
+                    'Digital Media ROI'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    { 'class': 'text-muted m-b-15 m-t-5 small' },
+                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                  ),
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'row' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'col-auto' },
+                      _react2.default.createElement('i', { 'class': 'fa fa-sign-in text-c-blue d-block f-20' })
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'col-auto' },
+                      _react2.default.createElement('i', { 'class': 'fa fa-info-circle text-c-green d-block f-20' })
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'col-auto' },
+                      _react2.default.createElement('i', { 'class': 'fa fa-upload text-c-yellow d-block f-20' })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  { 'class': 'active-feed' },
+                  _react2.default.createElement(
+                    'div',
+                    { 'class': 'feed-user-img' },
+                    _react2.default.createElement('img', {
+                      alt: 'Consumer Pathway',
+                      src: __webpack_require__(/*! ../../../../../assets/images/avatar-4.jpg */ "./assets/images/avatar-4.jpg"),
+                      className: 'img-radius'
+                    })
+                  ),
+                  _react2.default.createElement(
+                    'h6',
+                    { className: 'm-b-0' },
+                    'Consumer Pathway'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    { 'class': 'text-muted m-b-15 m-t-5 small' },
+                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                  ),
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'row' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'col-auto' },
+                      _react2.default.createElement('i', { 'class': 'fa fa-sign-in text-c-blue d-block f-20' })
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'col-auto' },
+                      _react2.default.createElement('i', { 'class': 'fa fa-info-circle text-c-green d-block f-20' })
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'col-auto' },
+                      _react2.default.createElement('i', { 'class': 'fa fa-upload text-c-yellow d-block f-20' })
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  { 'class': 'diactive-feed' },
+                  _react2.default.createElement(
+                    'div',
+                    { 'class': 'feed-user-img' },
+                    _react2.default.createElement('img', {
+                      alt: 'Digital Media ROI',
+                      src: __webpack_require__(/*! ../../../../../assets/images/avatar-4.jpg */ "./assets/images/avatar-4.jpg"),
+                      className: 'img-radius'
+                    })
+                  ),
+                  _react2.default.createElement(
+                    'h6',
+                    { className: 'm-b-0' },
+                    'Digital Media ROI'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    { 'class': 'text-muted m-b-15 m-t-5 small' },
+                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                  ),
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'row' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'col-auto' },
+                      _react2.default.createElement('i', { 'class': 'fa fa-sign-in text-c-blue d-block f-20' })
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'col-auto' },
+                      _react2.default.createElement('i', { 'class': 'fa fa-info-circle text-c-green d-block f-20' })
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'col-auto' },
+                      _react2.default.createElement('i', { 'class': 'fa fa-upload text-c-yellow d-block f-20' })
+                    )
+                  )
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            _accordian2.default,
+            { title: 'Trade Promotion Optimization' },
+            _react2.default.createElement(
+              'div',
+              { className: 'row' },
+              _react2.default.createElement(
+                'div',
+                { className: 'col-xl-4 col-md-6 col-sm-12' },
+                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
               ),
+              _react2.default.createElement(
+                'div',
+                { className: 'col-xl-4 col-md-6 col-sm-12' },
+                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'col-xl-4 col-md-6 col-sm-12' },
+                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+              )
+            )
+          ),
+          _react2.default.createElement(
+            _accordian2.default,
+            { title: 'Market Testing' },
+            _react2.default.createElement(
+              'div',
+              { className: 'row' },
+              _react2.default.createElement(
+                'div',
+                { className: 'col-xl-4 col-md-6 col-sm-12' },
+                _react2.default.createElement(_Card.Card, { title: 'Test & Control', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_TC })
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'col-xl-4 col-md-6 col-sm-12' },
+                _react2.default.createElement(_Card.Card, { title: 'New Product Launch', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_NPL })
+              )
+            )
+          ),
+          _react2.default.createElement(
+            _accordian2.default,
+            { title: 'Assortment & Space Analytics' },
+            _react2.default.createElement(
+              'div',
+              { className: 'row' },
               _react2.default.createElement(
                 'div',
                 { className: 'col-xl-4 col-md-6 col-sm-12' },
@@ -1914,7 +2284,15 @@ var Page = function (_React$Component) {
                 'div',
                 { className: 'col-xl-4 col-md-6 col-sm-12' },
                 _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
+              )
+            )
+          ),
+          _react2.default.createElement(
+            _accordian2.default,
+            { title: 'Employee Engagement Analytics' },
+            _react2.default.createElement(
+              'div',
+              { className: 'row' },
               _react2.default.createElement(
                 'div',
                 { className: 'col-xl-4 col-md-6 col-sm-12' },
@@ -1934,25 +2312,10 @@ var Page = function (_React$Component) {
           ),
           _react2.default.createElement(
             _accordian2.default,
-            { title: 'Pricing Analytics' },
+            { title: 'Operations Analytics' },
             _react2.default.createElement(
               'div',
               { className: 'row' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
               _react2.default.createElement(
                 'div',
                 { className: 'col-xl-4 col-md-6 col-sm-12' },
@@ -1972,19 +2335,19 @@ var Page = function (_React$Component) {
           ),
           _react2.default.createElement(
             _accordian2.default,
-            { title: 'Market Testing' },
+            { title: 'Supply Chain Analytics' },
             _react2.default.createElement(
               'div',
               { className: 'row' },
               _react2.default.createElement(
                 'div',
                 { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { title: 'Test & Control', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_TC })
+                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
               ),
               _react2.default.createElement(
                 'div',
                 { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { title: 'New Product Launch', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_NPL })
+                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
               ),
               _react2.default.createElement(
                 'div',
@@ -1995,25 +2358,10 @@ var Page = function (_React$Component) {
           ),
           _react2.default.createElement(
             _accordian2.default,
-            { title: 'Operational Analytics' },
+            { title: 'Custom Reports' },
             _react2.default.createElement(
               'div',
               { className: 'row' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
               _react2.default.createElement(
                 'div',
                 { className: 'col-xl-4 col-md-6 col-sm-12' },
@@ -5468,19 +5816,19 @@ module.exports = {
   main: {
     id: 'main',
     selected: {
-      id: 2,
-      label: 'About EAI',
-      icon: 'shine'
+      id: 1,
+      label: 'Home',
+      icon: 'home'
     },
     content: [{
       label: 'Enterprise Analytics Intelligence',
       content: [{
         id: 1,
-        label: 'SyncReal',
+        label: 'Home',
         icon: 'home'
       }, {
         id: 2,
-        label: 'About EAI',
+        label: 'SyncReal',
         icon: 'shine'
       }, {
         id: 3,
@@ -5528,48 +5876,49 @@ module.exports = {
       }]
     }]
   },
+
   iapply: {
     id: 'iapply',
     back: 'main',
     selected: {
       id: 10,
-      label: 'Test',
+      label: 'Find',
       icon: 'search'
     },
     content: [{
-      label: 'iApply',
+      label: 'Home',
+      content: getCompactedQuickLinks(7)
+    }, {
+      label: 'Tools',
       content: [{
         id: 9,
         label: 'Help',
         icon: 'help'
       }, {
         id: 10,
-        label: 'Test',
+        label: 'Find',
         icon: 'search'
       }, {
         id: 11,
-        label: 'Measures',
-        icon: 'filter'
+        label: 'Sort',
+        icon: 'exchange-vertical'
       }, {
         id: 12,
-        label: 'Clusters',
+        label: 'Filter',
         icon: 'filter'
       }, {
         id: 13,
-        label: 'Attributes',
-        icon: 'zoom-in'
+        label: 'Print',
+        icon: 'printer'
       }, {
         id: 14,
-        label: 'Dates',
-        icon: 'layout-grid3'
+        label: 'Export',
+        icon: 'export'
       }, {
         id: 15,
-        label: 'Size',
-        icon: 'printer'
+        label: 'Save View',
+        icon: 'layout-grid3'
       }]
-    }, {
-      label: 'Quick Links',
-      content: getCompactedQuickLinks(7)
     }]
   },
   getLink: getLink
@@ -6127,7 +6476,7 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\susmita\project\eai-ui\src/Root.jsx */"./src/Root.jsx");
+module.exports = __webpack_require__(/*! C:\Susmita\BLS\App\Development\eai-proj\eai-ui\src/Root.jsx */"./src/Root.jsx");
 
 
 /***/ }),
