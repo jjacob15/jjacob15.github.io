@@ -268,7 +268,7 @@ h6 {
 
 .accordion-desc {
   color: #222222;
-  padding: 0 20px 20px; }
+  padding: 0 20px 0; }
 
 #color-accordion .accordion-desc {
   margin-top: 14px; }
@@ -1412,7 +1412,8 @@ a.bg-danger:hover {
     width: 100%;
     transition: opacity 0.3s linear;
     border-top: 1px solid rgba(214, 214, 214, 0.5);
-    cursor: pointer; }
+    cursor: pointer;
+    display: block; }
   .side-bar .left-item {
     display: block;
     list-style: none;
