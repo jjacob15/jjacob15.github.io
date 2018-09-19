@@ -97,6 +97,17 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVR
 
 /***/ }),
 
+/***/ "./assets/images/avatars/avatar-user.png":
+/*!***********************************************!*\
+  !*** ./assets/images/avatars/avatar-user.png ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAABkCAYAAACfIP5qAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABPNJREFUeNrsnU1oVFcUx898T2YyGpqgyaCiwdSFCKlpaQg1E/EDPyBudNGuKoLQLjooghUUUlrQRUG6KVRCuxA/Wld+bwQTFVFINBi7cEZjwDbGYFA6ic440fSd0aRT0Qkz7933znvz/8Mjk+TNvY/7m3POPefem7j+3tjaRUQxgqToOzfGQJ4ABVAgQAEUCFAABQIUQIEABQIUQIEABVAgQAEUCFAgQAEUCFAABTJHXjs/vK9+sXY1kGdO7fTPXo4MU3YgqV13AcU00w5XUnjTFgqtXq/BmPve+16OPKJnF87T+MkT9Gp8DO5LlYLNK2jOr39Q5IsvCwJh8e/5Pr4//XELoKhQ1Y499MHeHzRLCRdpWWGq79hP/m92A4rRQEKr1ulqo2btBtuAEQ8lFz90AskHk46tBRQ98syt1eLCVkPbnPdVnEaqagClVDGQYmPITPJXVlLo8630IJ0FlFJnWyq0MNZGfWMZsWDckoEYbSX51iIZjFgonK2rVE3DktxXiWDEQuEgrzRe1UWnX0sDIxaKVzWUaN3/vpcEBlVigWDEQsnc6lPa/lBvr1gwYqFwCV6lUg+HxFqMXEvpv6nWUm70inVlci3l0TC9uK3GhQ1e6ipoKVaDER3oU0d+U9Ju//GjooO/aCiZ/j5KX7tiuJXM5LqsBiN+Svz04H7K3jdmvX00maCL33eIny6Lh8Lr66Pfxil1L6kbyKmvt9OLVEp8HmOL5JHBPN0Tp78ud5fssvQCMROMbXazeJ6NU/bAPrp87lNqjO+kSG3dzBOF4Yd09eCPNNjdZXjmz5of9JU3FJbP5aIFt67Tmc3tuf1ei1rbKNrU9M5s/b5mHaOJO8qeRSUY2+37YjAtsyvo6kCSenjQO617FlVgbFmQnAIzy2v946uIMbatEjsZjK1L904FIyam8B5hXgL2L/uo6PduoEltQCYo82qypL6HbvTQYy2P0TtlNirGWA4lsKwxt+Eu2PyZrnZm63hvE22fzme4LlZsGcZoMF4rLYO3o+qFYaQWalNsvhgOl2NKtRy9YNxWAak+8JMoIG/Daf/5EPkjEUtijNsqIL5Fi0myqhs+tAyM6VDYZUkHkg9m5b4O02dlpkLhoC7VZRVyZdHlTaaCMRVKxer1tsyHlmxsNzWPMRWKqg3byq0l1mZYgjnwPCsHCrsuVRu2VYs3hOt1YVP6czxDfam0c8ssdtWDzERBMIAiEIw4KJxF93T+onSBisXtcz9GLBEbDUbcIhcPVP/vx3JLuJsPH1PWD5dRRt8UIVt27LIUDFGaGiNBuZbyOJF4/UlOJtRaypv2p/qT5MoQUwTGGC+GQxYYlyvTDEsRponJySCgCBSgAAoEKIACAQqgQI6Ewkfl/rmbtOUgcUlGz16wYmVqRv8kvo0GV6yhbM37/yjn2PB/p3Z7Ow8pfybur1A/fIr4ztnTpn4IXFb8l22u8byujkJvKxrwdlsSU7hMPT+Aspu4QA8wQmdfDKaxMgAK0qbEvAkaYATmKQAjNHlkMJ/MCuZOZwGKINX6vbnjcuUORlyZhc8vljsYkbWvcgcjtiDJYFqrZJz8BZQ8hTxuMUeyASVPks7KA8o7wFT7PIAiEUw51Mts5xPKoZBpS0ftdDC2jZ4MZmk4ACjSVF/hzEKm7eeZTqwwO2Ly7zQwjsnIGEysKuSIetm/AgwA8MT1ZZpoVSEAAAAASUVORK5CYII="
+
+/***/ }),
+
 /***/ "./assets/images/logo.png":
 /*!********************************!*\
   !*** ./assets/images/logo.png ***!
@@ -5152,7 +5163,7 @@ var IModel = function (_React$Component) {
           _react2.default.createElement(
             'div',
             { className: 'm-t-10 m-b-30' },
-            _react2.default.createElement('i', { className: 'fa fa-chart-line text-c-green d-block f-50' })
+            _react2.default.createElement('i', { className: 'fa fa-dharmachakra text-c-green d-block f-50' })
           ),
           _react2.default.createElement(
             'h4',
@@ -5228,7 +5239,7 @@ var IPlan = function (_React$Component) {
           _react2.default.createElement(
             'div',
             { className: 'm-t-10 m-b-30' },
-            _react2.default.createElement('i', { className: 'fa fa-calendar text-c-green d-block f-50' })
+            _react2.default.createElement('i', { className: 'fa fa-calendar-alt text-c-green d-block f-50' })
           ),
           _react2.default.createElement(
             'h4',
@@ -5617,7 +5628,12 @@ var Button = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         "button",
-        { type: "button", title: "Enter", className: "btn btn-sm btn-grd-success", onClick: this.onEnter, onKeyPress: this.onEnter },
+        {
+          type: "button",
+          title: "Enter",
+          className: "btn btn-sm btn-grd-success",
+          onClick: this.onEnter,
+          onKeyPress: this.onEnter },
         "Enter"
       );
     }
@@ -5726,21 +5742,128 @@ var Page = function (_React$Component) {
             { title: 'Marketing Effectiveness' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -5780,7 +5903,7 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -5818,7 +5941,7 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -5856,7 +5979,7 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -5879,121 +6002,125 @@ var Page = function (_React$Component) {
             { title: 'Pricing Effectiveness' },
             _react2.default.createElement(
               'div',
-              { className: 'row m-t-20' },
+              { className: 'card' },
               _react2.default.createElement(
-                'ul',
-                { className: 'feed-blog' },
+                'div',
+                { className: 'card-block' },
                 _react2.default.createElement(
-                  'li',
-                  { className: 'active-feed' },
+                  'ul',
+                  { className: 'feed-blog' },
                   _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
-                  ),
-                  _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Digital Media ROI'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
+                    'li',
+                    { className: 'active-feed' },
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                     ),
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
                     )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  { className: 'active-feed' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
                   ),
                   _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Consumer Pathway'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
+                    'li',
+                    { className: 'active-feed' },
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                     ),
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
                     )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  { className: 'diactive-feed' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
                   ),
                   _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Digital Media ROI'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
+                    'li',
+                    { className: 'diactive-feed' },
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                     ),
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
                     )
                   )
                 )
@@ -6005,21 +6132,128 @@ var Page = function (_React$Component) {
             { title: 'Trade Promotion Optimization' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6028,16 +6262,90 @@ var Page = function (_React$Component) {
             { title: 'Market Testing' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { title: 'Test & Control', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_TC })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { title: 'New Product Launch', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_NPL })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Test to Know', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Test to Know'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'New Product Launch', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'New Product Launch'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6046,21 +6354,128 @@ var Page = function (_React$Component) {
             { title: 'Assortment & Space Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6069,21 +6484,128 @@ var Page = function (_React$Component) {
             { title: 'Customer Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6092,21 +6614,128 @@ var Page = function (_React$Component) {
             { title: 'Employee Engagement Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6115,21 +6744,128 @@ var Page = function (_React$Component) {
             { title: 'Operations Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6138,21 +6874,128 @@ var Page = function (_React$Component) {
             { title: 'Supply Chain Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6161,21 +7004,128 @@ var Page = function (_React$Component) {
             { title: 'Custom Reports' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           )
@@ -6376,7 +7326,12 @@ var Button = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         "button",
-        { type: "button", title: "Enter", className: "btn btn-sm btn-grd-success", onClick: this.onEnter, onKeyPress: this.onEnter },
+        {
+          type: "button",
+          title: "Enter",
+          className: "btn btn-sm btn-grd-success",
+          onClick: this.onEnter,
+          onKeyPress: this.onEnter },
         "Enter"
       );
     }
@@ -6485,21 +7440,128 @@ var Page = function (_React$Component) {
             { title: 'Marketing Effectiveness' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6539,7 +7601,7 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -6577,7 +7639,7 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -6615,7 +7677,7 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -6638,121 +7700,125 @@ var Page = function (_React$Component) {
             { title: 'Pricing Effectiveness' },
             _react2.default.createElement(
               'div',
-              { className: 'row m-t-20' },
+              { className: 'card' },
               _react2.default.createElement(
-                'ul',
-                { className: 'feed-blog' },
+                'div',
+                { className: 'card-block' },
                 _react2.default.createElement(
-                  'li',
-                  { className: 'active-feed' },
+                  'ul',
+                  { className: 'feed-blog' },
                   _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
-                  ),
-                  _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Digital Media ROI'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
+                    'li',
+                    { className: 'active-feed' },
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                     ),
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
                     )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  { className: 'active-feed' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
                   ),
                   _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Consumer Pathway'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
+                    'li',
+                    { className: 'active-feed' },
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                     ),
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
                     )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  { className: 'diactive-feed' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
                   ),
                   _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Digital Media ROI'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
+                    'li',
+                    { className: 'diactive-feed' },
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                     ),
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
                     )
                   )
                 )
@@ -6764,21 +7830,128 @@ var Page = function (_React$Component) {
             { title: 'Trade Promotion Optimization' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6787,16 +7960,128 @@ var Page = function (_React$Component) {
             { title: 'Market Testing' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { title: 'Test & Control', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_TC })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { title: 'New Product Launch', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_NPL })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6805,21 +8090,128 @@ var Page = function (_React$Component) {
             { title: 'Assortment & Space Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6828,21 +8220,128 @@ var Page = function (_React$Component) {
             { title: 'Customer Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6851,21 +8350,128 @@ var Page = function (_React$Component) {
             { title: 'Employee Engagement Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6874,21 +8480,128 @@ var Page = function (_React$Component) {
             { title: 'Operations Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6897,21 +8610,128 @@ var Page = function (_React$Component) {
             { title: 'Supply Chain Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -6920,21 +8740,128 @@ var Page = function (_React$Component) {
             { title: 'Custom Reports' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           )
@@ -7133,7 +9060,12 @@ var Button = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         "button",
-        { type: "button", title: "Enter", className: "btn btn-sm btn-grd-success", onClick: this.onEnter, onKeyPress: this.onEnter },
+        {
+          type: "button",
+          title: "Enter",
+          className: "btn btn-sm btn-grd-success",
+          onClick: this.onEnter,
+          onKeyPress: this.onEnter },
         "Enter"
       );
     }
@@ -7239,30 +9171,7 @@ var Page = function (_React$Component) {
           { className: 'm-t-25' },
           _react2.default.createElement(
             _accordian2.default,
-            { title: 'Marketing Effectiveness' },
-            _react2.default.createElement(
-              'div',
-              { className: 'row' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              )
-            )
-          ),
-          _react2.default.createElement(
-            _accordian2.default,
-            { title: 'Digital Media Effectiveness' },
+            { title: 'Simple Regression' },
             _react2.default.createElement(
               'div',
               { className: 'card' },
@@ -7278,12 +9187,12 @@ var Page = function (_React$Component) {
                     _react2.default.createElement(
                       'div',
                       { className: 'feed-user-img' },
-                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                      _react2.default.createElement('img', { alt: 'Ordinary Least Square', src: img, className: 'img-radius' })
                     ),
                     _react2.default.createElement(
                       'h6',
                       { className: 'm-b-0' },
-                      'Digital Media ROI'
+                      'Ordinary Least Square'
                     ),
                     _react2.default.createElement(
                       'p',
@@ -7296,7 +9205,7 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -7316,12 +9225,12 @@ var Page = function (_React$Component) {
                     _react2.default.createElement(
                       'div',
                       { className: 'feed-user-img' },
-                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                      _react2.default.createElement('img', { alt: 'Constrained Regression', src: img, className: 'img-radius' })
                     ),
                     _react2.default.createElement(
                       'h6',
                       { className: 'm-b-0' },
-                      'Consumer Pathway'
+                      'Constrained Regression'
                     ),
                     _react2.default.createElement(
                       'p',
@@ -7334,7 +9243,99 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            _accordian2.default,
+            { title: 'Hierarchical Linear Model' },
+            _react2.default.createElement(
+              'div',
+              { className: 'card' },
+              _react2.default.createElement(
+                'div',
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Fixed Effects', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Fixed Effects'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Random Effects', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Random Effects'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -7354,12 +9355,12 @@ var Page = function (_React$Component) {
                     _react2.default.createElement(
                       'div',
                       { className: 'feed-user-img' },
-                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                      _react2.default.createElement('img', { alt: 'Mixed Effects', src: img, className: 'img-radius' })
                     ),
                     _react2.default.createElement(
                       'h6',
                       { className: 'm-b-0' },
-                      'Digital Media ROI'
+                      'Mixed Effects'
                     ),
                     _react2.default.createElement(
                       'p',
@@ -7372,7 +9373,45 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Non-linear Mixed Constrained Effects', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Non-linear Mixed Constrained Effects'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -7392,124 +9431,52 @@ var Page = function (_React$Component) {
           ),
           _react2.default.createElement(
             _accordian2.default,
-            { title: 'Pricing Effectiveness' },
+            { title: 'Logistic Regression' },
             _react2.default.createElement(
               'div',
-              { className: 'row m-t-20' },
+              { className: 'card' },
               _react2.default.createElement(
-                'ul',
-                { className: 'feed-blog' },
+                'div',
+                { className: 'card-block' },
                 _react2.default.createElement(
-                  'li',
-                  { className: 'active-feed' },
+                  'ul',
+                  { className: 'feed-blog' },
                   _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
-                  ),
-                  _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Digital Media ROI'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
+                    'li',
+                    { className: 'active-feed' },
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Probit Models', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Probit Models'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                     ),
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  { className: 'active-feed' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
-                  ),
-                  _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Consumer Pathway'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  { className: 'diactive-feed' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
-                  ),
-                  _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Digital Media ROI'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
                     )
                   )
                 )
@@ -7518,180 +9485,505 @@ var Page = function (_React$Component) {
           ),
           _react2.default.createElement(
             _accordian2.default,
-            { title: 'Trade Promotion Optimization' },
+            { title: 'Other Regressions' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Lasso', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Lasso'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Ridge Regression', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Ridge Regression'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Elastic Net', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Elastic Net'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Partial Least Squares', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Partial Least Squares'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
           _react2.default.createElement(
             _accordian2.default,
-            { title: 'Market Testing' },
+            { title: 'Testing' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { title: 'Test & Control', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_TC })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { title: 'New Product Launch', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_NPL })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'ANOVA', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'ANOVA'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'ANCOVA', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'ANCOVA'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Heuristics', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Heuristics'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Bass Diffusion Models', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Bass Diffusion Models'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
           _react2.default.createElement(
             _accordian2.default,
-            { title: 'Assortment & Space Analytics' },
+            { title: 'Other Techniques' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              )
-            )
-          ),
-          _react2.default.createElement(
-            _accordian2.default,
-            { title: 'Customer Analytics' },
-            _react2.default.createElement(
-              'div',
-              { className: 'row' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              )
-            )
-          ),
-          _react2.default.createElement(
-            _accordian2.default,
-            { title: 'Employee Engagement Analytics' },
-            _react2.default.createElement(
-              'div',
-              { className: 'row' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              )
-            )
-          ),
-          _react2.default.createElement(
-            _accordian2.default,
-            { title: 'Operations Analytics' },
-            _react2.default.createElement(
-              'div',
-              { className: 'row' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              )
-            )
-          ),
-          _react2.default.createElement(
-            _accordian2.default,
-            { title: 'Supply Chain Analytics' },
-            _react2.default.createElement(
-              'div',
-              { className: 'row' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              )
-            )
-          ),
-          _react2.default.createElement(
-            _accordian2.default,
-            { title: 'Custom Reports' },
-            _react2.default.createElement(
-              'div',
-              { className: 'row' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Market Basket Analysis', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Market Basket Analysis'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Principle Component Analysis', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Principle Component Analysis'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Propensity Models', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Propensity Models'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Markov Chain', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Markov Chain'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           )
@@ -7892,7 +10184,12 @@ var Button = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         "button",
-        { type: "button", title: "Enter", className: "btn btn-sm btn-grd-success", onClick: this.onEnter, onKeyPress: this.onEnter },
+        {
+          type: "button",
+          title: "Enter",
+          className: "btn btn-sm btn-grd-success",
+          onClick: this.onEnter,
+          onKeyPress: this.onEnter },
         "Enter"
       );
     }
@@ -8001,21 +10298,128 @@ var Page = function (_React$Component) {
             { title: 'Marketing Effectiveness' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -8055,7 +10459,7 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -8093,7 +10497,7 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -8131,7 +10535,7 @@ var Page = function (_React$Component) {
                       _react2.default.createElement(
                         'div',
                         { className: 'col-auto' },
-                        _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
                       ),
                       _react2.default.createElement(
                         'div',
@@ -8154,121 +10558,125 @@ var Page = function (_React$Component) {
             { title: 'Pricing Effectiveness' },
             _react2.default.createElement(
               'div',
-              { className: 'row m-t-20' },
+              { className: 'card' },
               _react2.default.createElement(
-                'ul',
-                { className: 'feed-blog' },
+                'div',
+                { className: 'card-block' },
                 _react2.default.createElement(
-                  'li',
-                  { className: 'active-feed' },
+                  'ul',
+                  { className: 'feed-blog' },
                   _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
-                  ),
-                  _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Digital Media ROI'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
+                    'li',
+                    { className: 'active-feed' },
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                     ),
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
                     )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  { className: 'active-feed' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
                   ),
                   _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Consumer Pathway'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
+                    'li',
+                    { className: 'active-feed' },
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                     ),
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
                     )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  { className: 'diactive-feed' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'feed-user-img' },
-                    _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
                   ),
                   _react2.default.createElement(
-                    'h6',
-                    { className: 'm-b-0' },
-                    'Digital Media ROI'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'text-muted m-b-15 m-t-5 small' },
-                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
+                    'li',
+                    { className: 'diactive-feed' },
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-sign-in text-c-blue d-block f-20' })
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                     ),
                     _react2.default.createElement(
                       'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
-                    ),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'col-auto' },
-                      _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
                     )
                   )
                 )
@@ -8280,21 +10688,128 @@ var Page = function (_React$Component) {
             { title: 'Trade Promotion Optimization' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -8303,16 +10818,128 @@ var Page = function (_React$Component) {
             { title: 'Market Testing' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { title: 'Test & Control', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_TC })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { title: 'New Product Launch', onEnter: this.onEnter, app: _iapplyApps.APPLY_APP_NPL })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -8321,21 +10948,128 @@ var Page = function (_React$Component) {
             { title: 'Assortment & Space Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -8344,21 +11078,128 @@ var Page = function (_React$Component) {
             { title: 'Customer Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -8367,21 +11208,128 @@ var Page = function (_React$Component) {
             { title: 'Employee Engagement Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -8390,21 +11338,128 @@ var Page = function (_React$Component) {
             { title: 'Operations Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -8413,21 +11468,128 @@ var Page = function (_React$Component) {
             { title: 'Supply Chain Analytics' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           ),
@@ -8436,21 +11598,128 @@ var Page = function (_React$Component) {
             { title: 'Custom Reports' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xl-4 col-md-6 col-sm-12' },
-                _react2.default.createElement(_Card.Card, { onEnter: this.onEnter })
+                { className: 'card-block' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'feed-blog' },
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'active-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Consumer Pathway', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Consumer Pathway'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'diactive-feed' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'feed-user-img' },
+                      _react2.default.createElement('img', { alt: 'Digital Media ROI', src: img, className: 'img-radius' })
+                    ),
+                    _react2.default.createElement(
+                      'h6',
+                      { className: 'm-b-0' },
+                      'Digital Media ROI'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      { className: 'text-muted m-b-15 m-t-5 small' },
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                    ),
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'row' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'col-auto' },
+                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                      )
+                    )
+                  )
+                )
               )
             )
           )
@@ -9021,7 +12290,7 @@ var NavRight = function (_React$Component) {
           _react2.default.createElement(
             'a',
             null,
-            _react2.default.createElement('img', { alt: 'avatar', src: __webpack_require__(/*! ../../../assets/images/avatar-4.jpg */ "./assets/images/avatar-4.jpg"), className: 'img-radius' }),
+            _react2.default.createElement('img', { alt: 'avatar', src: __webpack_require__(/*! ../../../assets/images/avatars/avatar-user.png */ "./assets/images/avatars/avatar-user.png"), className: 'img-radius' }),
             _react2.default.createElement(
               'span',
               null,
@@ -10153,13 +13422,14 @@ var tutorial2 = { id: 19, label: 'Tutorials 2', link: '/tutorials2', parentId: 4
 var home = { id: 1, label: 'Home', icon: 'home', link: '/' };
 var syncReal = { id: 2, label: 'SyncReal', icon: 'shine', link: '/syncreal' };
 var videos = { id: 3, label: 'Videos', icon: 'video-clapper', link: '/videos', content: [vid1, vid2] };
-var tutorials = { id: 4, label: 'Tutorials', icon: 'server', link: '/tutorials', content: [tutorial1, tutorial2] };
-var iextract = { id: 5, label: 'iExtract', icon: 'server', link: '/iextract' };
-var imodel = { id: 6, label: 'iModel', icon: 'settings', link: '/imodel' };
-var iapply = { id: 7, label: 'iApply', icon: 'bar-chart-alt', link: '/iapply' };
-var iplan = { id: 8, label: 'iPlan', icon: 'panel', link: '/iplan' };
+var tutorials = { id: 4, label: 'Tutorials', icon: 'book', link: '/tutorials', content: [tutorial1, tutorial2] };
+var iextract = { id: 5, label: 'FACT', icon: 'server', link: '/iextract' };
+var imodel = { id: 6, label: 'BUILD', icon: 'settings', link: '/imodel' };
+var iapply = { id: 7, label: 'REVIEW', icon: 'bar-chart-alt', link: '/iapply' };
+var iplan = { id: 8, label: 'PLAN', icon: 'panel', link: '/iplan' };
 var faq = { id: 9, label: 'FAQs', icon: 'support', link: '/faqs' };
 var help = { id: 10, label: 'Help', icon: 'help', link: '/help' };
+var contact = { id: 20, label: 'Contact Us', icon: 'ticket', link: '/contact' };
 var find = { id: 11, label: 'Find', icon: 'search', link: '/iapply/find' };
 var sort = { id: 12, label: 'Sort', icon: 'exchange-vertical', link: '/iapply/sort' };
 var print = { id: 13, label: 'Print', icon: 'printer', link: '/iapply/print' };
@@ -10187,7 +13457,7 @@ module.exports = {
       content: [home, syncReal, videos, tutorials]
     }, {
       label: 'Support',
-      content: [faq, help]
+      content: [faq, help, contact]
     }]
   },
 
@@ -10325,7 +13595,7 @@ Object.defineProperty(exports, "__esModule", {
 var _types = __webpack_require__(/*! ../constants/types */ "./src/constants/types.js");
 
 exports.default = function () {
-  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : { user: 'Jaison Jacob' };
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : { user: 'User Profile' };
   var action = arguments[1];
 
   switch (action.type) {
