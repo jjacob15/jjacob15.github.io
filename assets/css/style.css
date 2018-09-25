@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
 /**  =====================
       Custom css start
 ==========================  **/
@@ -55,6 +56,13 @@ h6 {
 
 .bg-c-pink {
   background: linear-gradient(45deg, #ff5370, #ff869a); }
+
+.title-content-font {
+  font-family: "Lato", sans-serif; }
+  .title-content-font a {
+    color: #4099ff !important;
+    font-size: inherit;
+    font-family: inherit; }
 
 .main-container {
   margin: 0 auto;
@@ -228,7 +236,7 @@ h6 {
     background-color: transparent;
     border-radius: 0; }
   .md-tabs .nav-item a {
-    padding: 20px 0 !important;
+    padding: 0 0 20px 0 !important;
     color: #222; }
 
 .nav-tabs .slide {
@@ -332,7 +340,10 @@ a.bg-danger:hover {
 
 .modal-title {
   font-weight: 600;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: absolute;
+  top: 5px;
+  left: 8px; }
 
 /**  =====================
       Test Control program css start
