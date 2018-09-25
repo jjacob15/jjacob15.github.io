@@ -119,6 +119,17 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAAiCAYAAADL
 
 /***/ }),
 
+/***/ "./assets/images/segimg.jpg":
+/*!**********************************!*\
+  !*** ./assets/images/segimg.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/jpeg;base64,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"
+
+/***/ }),
+
 /***/ "./node_modules/classnames/index.js":
 /*!*******************************************************************************!*\
   !*** delegated ./node_modules/classnames/index.js from dll-reference utility ***!
@@ -4845,6 +4856,145 @@ exports.default = MainContainer;
 
 /***/ }),
 
+/***/ "./src/components/Review/Home.jsx":
+/*!****************************************!*\
+  !*** ./src/components/Review/Home.jsx ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _accordian = __webpack_require__(/*! ../ui/accordian */ "./src/components/ui/accordian/index.jsx");
+
+var _accordian2 = _interopRequireDefault(_accordian);
+
+var _reviewData = __webpack_require__(/*! ./reviewData */ "./src/components/Review/reviewData.js");
+
+var _reviewData2 = _interopRequireDefault(_reviewData);
+
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+
+var _links = __webpack_require__(/*! ../../constants/links */ "./src/constants/links.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Home = function (_React$Component) {
+    _inherits(Home, _React$Component);
+
+    function Home() {
+        _classCallCheck(this, Home);
+
+        return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
+    }
+
+    _createClass(Home, [{
+        key: 'render',
+        value: function render() {
+            var img = __webpack_require__(/*! ../../../assets/images/segimg.jpg */ "./assets/images/segimg.jpg");
+            return _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                    'div',
+                    { className: 'row' },
+                    _react2.default.createElement('i', { className: 'fa fa-project-diagram text-c-green d-block f-40 m-l-20' }),
+                    _react2.default.createElement(
+                        'h4',
+                        { className: 'm-l-20', style: { lineHeight: '40px' } },
+                        'Review'
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'm-t-25' },
+                    _reviewData2.default.map(function (row, rIdx) {
+                        return _react2.default.createElement(
+                            _accordian2.default,
+                            { title: row.title, key: rIdx },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'card' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'card-block' },
+                                    _react2.default.createElement(
+                                        'ul',
+                                        { className: 'feed-blog' },
+                                        row.content.map(function (content, cIdx) {
+                                            return _react2.default.createElement(
+                                                'li',
+                                                { className: 'active-feed', key: cIdx },
+                                                _react2.default.createElement(
+                                                    'div',
+                                                    { className: 'feed-user-img' },
+                                                    _react2.default.createElement('img', { alt: content.title, src: img, className: 'img-radius' })
+                                                ),
+                                                _react2.default.createElement(
+                                                    'h6',
+                                                    { className: 'm-b-0' },
+                                                    content.title
+                                                ),
+                                                _react2.default.createElement(
+                                                    'p',
+                                                    { className: 'text-muted m-b-15 m-t-5 small' },
+                                                    content.desc
+                                                ),
+                                                _react2.default.createElement(
+                                                    'div',
+                                                    { className: 'row' },
+                                                    _react2.default.createElement(
+                                                        _reactRouterDom.Link,
+                                                        { className: 'col-auto', to: _links.reviewTestPath },
+                                                        _react2.default.createElement('i', { className: 'fa fa-sign-in-alt text-c-blue d-block f-20' })
+                                                    ),
+                                                    _react2.default.createElement(
+                                                        'div',
+                                                        { className: 'col-auto' },
+                                                        _react2.default.createElement('i', { className: 'fa fa-info-circle text-c-green d-block f-20' })
+                                                    ),
+                                                    _react2.default.createElement(
+                                                        'div',
+                                                        { className: 'col-auto' },
+                                                        _react2.default.createElement('i', { className: 'fa fa-upload text-c-yellow d-block f-20' })
+                                                    )
+                                                )
+                                            );
+                                        })
+                                    )
+                                )
+                            )
+                        );
+                    })
+                )
+            );
+        }
+    }]);
+
+    return Home;
+}(_react2.default.Component);
+
+exports.default = Home;
+
+/***/ }),
+
 /***/ "./src/components/Review/index.jsx":
 /*!*****************************************!*\
   !*** ./src/components/Review/index.jsx ***!
@@ -4854,6 +5004,10 @@ exports.default = MainContainer;
 
 "use strict";
 
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -4869,6 +5023,10 @@ var _test = __webpack_require__(/*! ./test */ "./src/components/Review/test/inde
 
 var _test2 = _interopRequireDefault(_test);
 
+var _Home = __webpack_require__(/*! ./Home */ "./src/components/Review/Home.jsx");
+
+var _Home2 = _interopRequireDefault(_Home);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -4877,34 +5035,180 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Index = function (_Component) {
-  _inherits(Index, _Component);
+var Index = function (_React$Component) {
+    _inherits(Index, _React$Component);
 
-  function Index() {
-    _classCallCheck(this, Index);
+    function Index() {
+        _classCallCheck(this, Index);
 
-    return _possibleConstructorReturn(this, (Index.__proto__ || Object.getPrototypeOf(Index)).apply(this, arguments));
-  }
-
-  _createClass(Index, [{
-    key: 'render',
-    value: function render() {
-      var _this2 = this;
-
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(_reactRouterDom.Route, { path: _links.reviewPath, render: function render(p) {
-            return _react2.default.createElement(_test2.default, _this2.props);
-          } })
-      );
+        return _possibleConstructorReturn(this, (Index.__proto__ || Object.getPrototypeOf(Index)).apply(this, arguments));
     }
-  }]);
 
-  return Index;
-}(_react.Component);
+    _createClass(Index, [{
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
 
-module.exports = Index;
+            return _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: _links.reviewPath, render: function render(p) {
+                        return _react2.default.createElement(_Home2.default, null);
+                    } }),
+                _react2.default.createElement(_reactRouterDom.Route, { path: _links.reviewTestPath, render: function render(p) {
+                        return _react2.default.createElement(_test2.default, _this2.props);
+                    } })
+            );
+        }
+    }]);
+
+    return Index;
+}(_react2.default.Component);
+
+exports.default = Index;
+
+/***/ }),
+
+/***/ "./src/components/Review/reviewData.js":
+/*!*********************************************!*\
+  !*** ./src/components/Review/reviewData.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = [{
+    title: 'Marketing Effectiveness',
+    content: [{
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Consumer Pathway',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }]
+}, {
+    title: 'Digital Media Effectiveness',
+    content: [{
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Consumer Pathway',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }]
+}, {
+    title: 'Pricing Effectiveness',
+    content: [{
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Consumer Pathway',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }]
+}, {
+    title: 'Trade Promotion Optimization',
+    content: [{
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Consumer Pathway',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }]
+}, {
+    title: 'Market Testing',
+    content: [{
+        title: 'Test to Know',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'New Product Launch',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }]
+}, {
+    title: 'Assortment & Space Analytics',
+    content: [{
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Consumer Pathway',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }]
+}, {
+    title: 'Customer Analytics',
+    content: [{
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Consumer Pathway',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }]
+}, {
+    title: 'Employee Engagement Analytics',
+    content: [{
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Consumer Pathway',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }]
+}, {
+    title: 'Operations Analytics',
+    content: [{
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Consumer Pathway',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }]
+}, {
+    title: 'Supply Chain Analytics',
+    content: [{
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Consumer Pathway',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }]
+}, {
+    title: 'Custom Reports',
+    content: [{
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Consumer Pathway',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }, {
+        title: 'Digital Media ROI',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    }]
+}];
 
 /***/ }),
 
@@ -5287,6 +5591,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var getTabsFromArr = function getTabsFromArr(items) {
+  if (items.length === 0) return [{ id: -1, name: 'Program' }];
+
   return items.map(function (x) {
     return { id: x.id, name: x.title };
   });
@@ -5301,13 +5607,15 @@ var Program = function (_Component) {
     var _this = _possibleConstructorReturn(this, (Program.__proto__ || Object.getPrototypeOf(Program)).call(this));
 
     _this.handleSelectedTab = _this.handleSelectedTab.bind(_this);
-    _this.handleTabAdd = _this.handleTabAdd.bind(_this);
+    // this.handleTabAdd = this.handleTabAdd.bind(this);
     return _this;
   }
 
   _createClass(Program, [{
     key: 'renderSubview',
     value: function renderSubview(selectedProgram) {
+      if (!selectedProgram) return _react2.default.createElement(_tests2.default, this.props);
+
       switch (selectedProgram.view.toLowerCase()) {
         case 'test':
           return _react2.default.createElement(_tests2.default, this.props);
@@ -5315,7 +5623,6 @@ var Program = function (_Component) {
           return _react2.default.createElement(_measures2.default, null);
         default:
           return _react2.default.createElement(_tests2.default, null);
-
       }
     }
   }, {
@@ -5323,11 +5630,10 @@ var Program = function (_Component) {
     value: function handleSelectedTab(item) {
       this.props.setActiveProgram(item.id);
     }
-  }, {
-    key: 'handleTabAdd',
-    value: function handleTabAdd() {
-      this.props.addNewTest();
-    }
+    // handleTabAdd() {
+    //   this.props.addNewTest();
+    // }
+
   }, {
     key: 'renderDeleteModal',
     value: function renderDeleteModal() {
@@ -5359,20 +5665,26 @@ var Program = function (_Component) {
 
       var selectedProgram = (0, _util.getObjFromArr)(programs, activeProgram);
 
-      selectedProgram = selectedProgram || programs[0];
-
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_tabs2.default, {
-          items: getTabsFromArr(programs),
-          active: activeProgram,
-          handleSelected: this.handleSelectedTab,
-          handleTabAdd: this.handleTabAdd
-        }),
+        _react2.default.createElement(
+          _tabs2.default,
+          {
+            items: getTabsFromArr(programs),
+            active: activeProgram,
+            handleSelected: this.handleSelectedTab
+          },
+          _react2.default.createElement(
+            'div',
+            { style: { position: 'absolute', right: '0px', fontSize: '15px' } },
+            _react2.default.createElement('i', { className: 'fa fa-file m-10', onClick: this.props.addNewTest }),
+            activeProgram !== -1 && _react2.default.createElement('i', { className: 'fa fa-times m-10', onClick: this.props.displayDeleteModelWindow })
+          )
+        ),
         _react2.default.createElement(
           'div',
-          { className: 'card nohover m-t-20 p-20' },
+          { className: 'card m-t-20 p-20' },
           this.renderSubview(selectedProgram)
         ),
         this.renderDeleteModal()
@@ -5444,8 +5756,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var WelcomeMessage = function WelcomeMessage(props) {
   return _react2.default.createElement(
     'div',
-    { className: 'title-content-font',
-      style: { fontSize: '50px' } },
+    { className: 'title-content-font', style: { fontSize: '50px' } },
     'Add your first test to review by clicking ',
     _react2.default.createElement(
       'a',
@@ -5477,21 +5788,22 @@ var Index = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
+      console.log(this.props);
       var review = this.props.review;
       var test = review.test;
 
 
       switch (test.view) {
-        case "new":
+        case 'new':
           return _react2.default.createElement(_NewProgram2.default, review);
-        case "program":
+        default:
           return _react2.default.createElement(_Program2.default, _extends({}, test, {
             addNewTest: this.props.changingViewToNew,
             setActiveProgram: this.setActiveProgram,
             handleCloseDeleteModal: this.props.handleCloseDeleteModal,
-            handleTestProgramDelete: this.props.handleTestProgramDelete }));
-        default:
-          return _react2.default.createElement(WelcomeMessage, { handleClicked: this.props.changingViewToNew });
+            handleTestProgramDelete: this.props.handleTestProgramDelete,
+            displayDeleteModelWindow: this.props.displayDeleteModelWindow
+          }));
       }
     }
   }]);
@@ -5502,7 +5814,7 @@ var Index = function (_Component) {
 function actions(dispatch) {
   return {
     changingViewToNew: function changingViewToNew() {
-      dispatch({ type: _types.TC_SET_VIEW, content: 'new' });
+      return dispatch({ type: _types.TC_SET_VIEW, content: 'new' });
     },
     setActiveTestProgram: function setActiveTestProgram(id) {
       return dispatch({ type: _types.TC_SET_ACTIVE_PROGRAM, content: id });
@@ -5512,6 +5824,9 @@ function actions(dispatch) {
     },
     handleTestProgramDelete: function handleTestProgramDelete() {
       return dispatch((0, _actions.deleteTcProgram)());
+    },
+    displayDeleteModelWindow: function displayDeleteModelWindow() {
+      return dispatch({ type: _types.TC_SHOW_DELETE_MODAL });
     }
   };
 }
@@ -5642,10 +5957,6 @@ var _Tabs = __webpack_require__(/*! ./Tabs */ "./src/components/Review/test/subC
 
 var _Tabs2 = _interopRequireDefault(_Tabs);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-
-var _types = __webpack_require__(/*! ../../../../../constants/types */ "./src/constants/types/index.js");
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -5660,20 +5971,14 @@ var Container = function (_React$Component) {
   function Container() {
     _classCallCheck(this, Container);
 
-    var _this = _possibleConstructorReturn(this, (Container.__proto__ || Object.getPrototypeOf(Container)).call(this));
-
-    _this.handleDelete = _this.handleDelete.bind(_this);
-    return _this;
+    return _possibleConstructorReturn(this, (Container.__proto__ || Object.getPrototypeOf(Container)).call(this));
   }
 
   _createClass(Container, [{
-    key: 'handleDelete',
-    value: function handleDelete() {
-      this.props.displayDeleteModelWindow();
-    }
-  }, {
     key: 'render',
     value: function render() {
+      var activeProgram = this.props.program.activeProgram;
+
       return _react2.default.createElement(
         'div',
         { className: 'test-control' },
@@ -5688,7 +5993,7 @@ var Container = function (_React$Component) {
               { style: { marginBottom: '0px' } },
               'Tests (0)'
             ),
-            _react2.default.createElement(
+            activeProgram !== -1 && _react2.default.createElement(
               'div',
               { style: { position: 'absolute', right: '0', top: '5px', fontSize: '15px' } },
               _react2.default.createElement(
@@ -5704,7 +6009,7 @@ var Container = function (_React$Component) {
               _react2.default.createElement(
                 'span',
                 { style: { margin: '10px' } },
-                _react2.default.createElement('i', { className: 'fa fa-times', title: 'Delete program', onClick: this.handleDelete })
+                _react2.default.createElement('i', { className: 'fa fa-times', title: 'Delete program' })
               ),
               _react2.default.createElement(
                 'span',
@@ -5714,7 +6019,7 @@ var Container = function (_React$Component) {
             )
           )
         ),
-        _react2.default.createElement(_Tabs2.default, null)
+        _react2.default.createElement(_Tabs2.default, this.props)
       );
     }
   }]);
@@ -5722,17 +6027,7 @@ var Container = function (_React$Component) {
   return Container;
 }(_react2.default.Component);
 
-function actions(dispatch) {
-  return {
-    displayDeleteModelWindow: function displayDeleteModelWindow() {
-      return dispatch({ type: _types.TC_SHOW_DELETE_MODAL });
-    }
-  };
-}
-
-exports.default = (0, _reactRedux.connect)(function () {
-  return {};
-}, actions)(Container);
+exports.default = Container;
 
 /***/ }),
 
@@ -5825,7 +6120,7 @@ var Tabs = function (_React$Component) {
     value: function renderViews() {
       switch (this.state.active) {
         case 0:
-          return _react2.default.createElement(_Table2.default, null);
+          return _react2.default.createElement(_Table2.default, this.props);
         default:
           return null;
       }
@@ -5951,7 +6246,7 @@ var Table = function (_React$Component) {
         'div',
         { className: 'dataTables_length' },
         _react2.default.createElement(_TableHeader2.default, null),
-        _react2.default.createElement(_TableBody2.default, null),
+        _react2.default.createElement(_TableBody2.default, this.props),
         _react2.default.createElement(_TableFooter2.default, null)
       );
     }
@@ -6002,8 +6297,196 @@ var Body = function (_React$Component) {
   }
 
   _createClass(Body, [{
+    key: "renderBody",
+    value: function renderBody() {
+      var activeProgram = this.props.program.activeProgram;
+
+
+      if (activeProgram === -1) return null;
+
+      return _react2.default.createElement(
+        "tbody",
+        null,
+        _react2.default.createElement(
+          "tr",
+          { role: "row" },
+          _react2.default.createElement(
+            "td",
+            { className: "sorting_1" },
+            "Airi Satou"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "Accountant"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "Tokyo"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "33"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "2008/11/28"
+          )
+        ),
+        _react2.default.createElement(
+          "tr",
+          { role: "row" },
+          _react2.default.createElement(
+            "td",
+            { className: "sorting_1" },
+            "Ashton Cox"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "Junior Technical Author"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "San Francisco"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "66"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "2009/01/12"
+          )
+        ),
+        _react2.default.createElement(
+          "tr",
+          { role: "row" },
+          _react2.default.createElement(
+            "td",
+            { className: "sorting_1" },
+            "Bradley Greer"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "Software Engineer"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "London"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "41"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "2012/10/13"
+          )
+        ),
+        _react2.default.createElement(
+          "tr",
+          { role: "row" },
+          _react2.default.createElement(
+            "td",
+            { className: "sorting_1" },
+            "Brielle Williamson"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "Integration Specialist"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "New York"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "61"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "2012/12/02"
+          )
+        ),
+        _react2.default.createElement(
+          "tr",
+          { role: "row" },
+          _react2.default.createElement(
+            "td",
+            { className: "sorting_1" },
+            "Cedric Kelly"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "Senior Javascript Developer"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "Edinburgh"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "22"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "2012/03/29"
+          )
+        ),
+        _react2.default.createElement(
+          "tr",
+          { role: "row" },
+          _react2.default.createElement(
+            "td",
+            { className: "sorting_1" },
+            "Charde Marshall"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "Regional Director"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "San Francisco"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "36"
+          ),
+          _react2.default.createElement(
+            "td",
+            null,
+            "2008/10/16"
+          )
+        )
+      );
+    }
+  }, {
     key: "render",
     value: function render() {
+
       return _react2.default.createElement(
         "div",
         { className: "row" },
@@ -6052,184 +6535,7 @@ var Body = function (_React$Component) {
                 )
               )
             ),
-            _react2.default.createElement(
-              "tbody",
-              null,
-              _react2.default.createElement(
-                "tr",
-                { role: "row" },
-                _react2.default.createElement(
-                  "td",
-                  { className: "sorting_1" },
-                  "Airi Satou"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "Accountant"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "Tokyo"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "33"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "2008/11/28"
-                )
-              ),
-              _react2.default.createElement(
-                "tr",
-                { role: "row" },
-                _react2.default.createElement(
-                  "td",
-                  { className: "sorting_1" },
-                  "Ashton Cox"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "Junior Technical Author"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "San Francisco"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "66"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "2009/01/12"
-                )
-              ),
-              _react2.default.createElement(
-                "tr",
-                { role: "row" },
-                _react2.default.createElement(
-                  "td",
-                  { className: "sorting_1" },
-                  "Bradley Greer"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "Software Engineer"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "London"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "41"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "2012/10/13"
-                )
-              ),
-              _react2.default.createElement(
-                "tr",
-                { role: "row" },
-                _react2.default.createElement(
-                  "td",
-                  { className: "sorting_1" },
-                  "Brielle Williamson"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "Integration Specialist"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "New York"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "61"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "2012/12/02"
-                )
-              ),
-              _react2.default.createElement(
-                "tr",
-                { role: "row" },
-                _react2.default.createElement(
-                  "td",
-                  { className: "sorting_1" },
-                  "Cedric Kelly"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "Senior Javascript Developer"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "Edinburgh"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "22"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "2012/03/29"
-                )
-              ),
-              _react2.default.createElement(
-                "tr",
-                { role: "row" },
-                _react2.default.createElement(
-                  "td",
-                  { className: "sorting_1" },
-                  "Charde Marshall"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "Regional Director"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "San Francisco"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "36"
-                ),
-                _react2.default.createElement(
-                  "td",
-                  null,
-                  "2008/10/16"
-                )
-              )
-            ),
+            this.renderBody(),
             _react2.default.createElement(
               "tfoot",
               null,
@@ -12955,6 +13261,8 @@ var _menu = __webpack_require__(/*! ../../constants/menu */ "./src/constants/men
 
 var _menu2 = _interopRequireDefault(_menu);
 
+var _links = __webpack_require__(/*! ../../constants/links */ "./src/constants/links.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -13004,8 +13312,11 @@ var SideBar = function (_Component) {
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', render: function render() {
             return _react2.default.createElement(_SideBarContent2.default, { menu: _menu2.default.main });
           } }),
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/review', render: function render() {
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: _links.reviewPath, render: function render() {
             return _react2.default.createElement(_SideBarContent2.default, { menu: _menu2.default.mainApp });
+          } }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: _links.reviewTestPath, render: function render() {
+            return _react2.default.createElement(_SideBarContent2.default, { menu: _menu2.default.reivewTestApp });
           } }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/imodel', render: function render() {
             return _react2.default.createElement(_SideBarContent2.default, { menu: _menu2.default.mainApp });
@@ -13463,8 +13774,6 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
@@ -13485,23 +13794,6 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var IconStyle = function IconStyle(fromStyle) {
-  return _extends({}, fromStyle, {
-    fontSize: '20px'
-  });
-};
-var Icon = function Icon(_ref) {
-  var className = _ref.className,
-      style = _ref.style,
-      title = _ref.title,
-      onClick = _ref.onClick;
-  return _react2.default.createElement(
-    'div',
-    { style: IconStyle(style), title: title, onClick: onClick },
-    _react2.default.createElement('i', { className: className })
-  );
-};
-
 var Tabs = function (_React$Component) {
   _inherits(Tabs, _React$Component);
 
@@ -13511,7 +13803,6 @@ var Tabs = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (Tabs.__proto__ || Object.getPrototypeOf(Tabs)).call(this));
 
     _this.handleClick = _this.handleClick.bind(_this);
-    _this.handleTabAdd = _this.handleTabAdd.bind(_this);
     return _this;
   }
 
@@ -13523,11 +13814,6 @@ var Tabs = function (_React$Component) {
       handleSelected(i);
     }
   }, {
-    key: 'handleTabAdd',
-    value: function handleTabAdd() {
-      this.props.handleTabAdd();
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _this2 = this;
@@ -13537,16 +13823,12 @@ var Tabs = function (_React$Component) {
           active = _props.active;
 
       return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          'ul',
-          { className: 'nav nav-tabs md-tabs' },
-          items.map(function (m, i) {
-            return _react2.default.createElement(_Tab2.default, { item: m, active: active, key: i, handleClick: _this2.handleClick });
-          }),
-          _react2.default.createElement(Icon, { className: 'ti-plus text-c-blue', style: { marginTop: '2px', marginLeft: '23px', cursor: 'pointer' }, title: 'Add a program', onClick: this.handleTabAdd })
-        )
+        'ul',
+        { className: 'nav nav-tabs md-tabs' },
+        items.map(function (m, i) {
+          return _react2.default.createElement(_Tab2.default, { item: m, active: active, key: i, handleClick: _this2.handleClick });
+        }),
+        this.props.children
       );
     }
   }]);
@@ -13564,8 +13846,7 @@ Tabs.propTypes = {
   })).isRequired,
   active: _propTypes2.default.number.isRequired,
 
-  handleSelected: _propTypes2.default.func.isRequired,
-  handleTabAdd: _propTypes2.default.func.isRequired
+  handleSelected: _propTypes2.default.func.isRequired
 };
 
 /***/ }),
@@ -13604,7 +13885,8 @@ var LANDING = exports.LANDING = '__LANDING';
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var reviewPath = exports.reviewPath = '/review/test';
+var reviewPath = exports.reviewPath = '/review';
+var reviewTestPath = exports.reviewTestPath = '/review/test';
 var iextractPath = exports.iextractPath = '/iextract';
 var iplanPath = exports.iplanPath = '/iplan';
 var imodelPath = exports.imodelPath = '/imodel';
@@ -13645,6 +13927,13 @@ var print = { id: 13, label: 'Print', icon: 'printer', link: _links.reviewPath +
 var exportLink = { id: 14, label: 'Export', icon: 'export', link: _links.reviewPath + '/exportlink' };
 var saveView = { id: 15, label: 'Save View', icon: 'layout-grid3', link: _links.reviewPath + '/save' };
 
+var test = { id: 16, label: 'Test', icon: 'layout-grid3', link: _links.reviewTestPath };
+var measures = { id: 17, label: 'Measures', icon: 'layout-grid3', link: _links.reviewPath };
+var clusters = { id: 18, label: 'Clusters', icon: 'layout-grid3', link: _links.reviewPath };
+var attributes = { id: 19, label: 'Attributes', icon: 'layout-grid3', link: _links.reviewPath };
+var dates = { id: 20, label: 'Dates', icon: 'layout-grid3', link: _links.reviewPath };
+var size = { id: 21, label: 'Size', icon: 'layout-grid3', link: _links.reviewPath };
+
 var quickLinks = [iextract, imodel, review, iplan];
 
 var getLink = function getLink(id) {
@@ -13680,6 +13969,19 @@ module.exports = {
     }, {
       label: 'Tools',
       content: [find, sort, print, exportLink, saveView]
+    }]
+  },
+
+  reivewTestApp: {
+    id: 'reivewTestApp',
+    back: review,
+    selected: find,
+    content: [{
+      label: 'Review',
+      content: [test, measures, clusters, attributes, dates, size]
+    }, {
+      label: 'Quick Links',
+      content: quickLinks
     }]
   },
 
